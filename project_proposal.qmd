@@ -69,20 +69,24 @@ The retrieve view uses a two-panel layout to show the restaurant details and ove
 
 ![Add View](./media/AddView.png)
 
-The add view is split right down the middle to separate the business and user roles. The left side has clear input fields for creating a new restaurant, and the right side has a star rating and text box for writing reviews. This split layout perfectly matches the database rules by keeping vendor actions completely separate from customer actions. The clear text boxes also show exactly how users will enter their data.
+The add view is dependent on what the end-user wants to achieve and it separates the business and user roles. The left side has clear input fields for creating a new restaurant. The user side which is not shown would be for submitting reviews and changing profile information. This split layout perfectly matches the database rules by keeping vendor actions completely separate from customer actions. The clear text boxes also show exactly how users will enter their data.
 
 ![Update View](./media/UpdateView.png)
 
-The update view also keeps the split layout and shows the current active information. It features a special location picker tool for business owners and a pre-filled review form for regular users. The location picker is designed specifically for food trucks, letting owners quickly update their daily locations and hours without having to dig through confusing settings.
+The update view also shows the current active information. It features a special location picker tool for business owners and a pre-filled review form for regular users. The location picker is designed specifically for food trucks, letting owners quickly update their daily locations and hours without having to dig through confusing settings.
 
 ![Delete View](./media/DeleteView.png)
 
-The delete view keeps the same two-column layout and highlights how to remove information. It includes a clear popup confirmation prompt that asks users if they are sure before anything is permanently deleted. This popup prevents people from accidentally deleting data, which is an important safety feature, while still keeping the same user permissions as the add and update screens.
+The delete view highlights how to remove information. It includes a clear popup confirmation prompt that asks users if they are sure before anything is permanently deleted. This popup prevents people from accidentally deleting data, which is an important safety feature, while still keeping the same user permissions as the add and update screens.
 
 ![Search, Sort, and Filter View](./media/SearchSortFilterView.png)
 
 The search, sort, and filter view is a discovery screen that features a top navigation bar with a text search and dropdown controls. These controls sit right above a grid of basic restaurant preview cards. Keeping the search tools at the top allows users to easily change their search settings, like filtering by food type or sorting by rating. The card grid design makes it very easy to scan through local food options quickly.
 
-![Export View](./media/ExportView.png) The export view is a clean dashboard that includes a dropdown menu to choose the file format and a large download button. It also has a preview block showing what the exported data looks like. This design hides the complicated backend tools, giving business owners a simple and friendly way to download their data for their own personal records or data analysis.
+![Export View](./media/ExportView.png)
 
-![Import View](./media/ImportView.png) The import view is a drag-and-drop dashboard that clearly shows which file types are supported. It features success indicators and a preview terminal to show the data being uploaded. This creates a smooth visual process for uploading large menus or schedules all at once. It takes complex database actions and turns them into a simple, easy to use interface for the vendors.
+The export view is a clean dashboard that includes a dropdown menu to choose the file format and a large download button. It also has a preview block showing what the exported data looks like. This design hides the complicated backend tools, giving business owners a simple and friendly way to download their data for their own personal records or data analysis.
+
+![Import View](./media/ImportView.png)
+
+The import view is a drag-and-drop dashboard that clearly shows which file types are supported. It features success indicators and a preview terminal to show the data being uploaded. This creates a smooth visual process for uploading large menus or schedules all at once. It takes complex database actions and turns them into a simple, easy to use interface for the vendors.
