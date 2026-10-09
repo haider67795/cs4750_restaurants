@@ -47,7 +47,7 @@ are needed.
 - Permit records provide supporting information and do not automatically establish that a vendor has been independently verified.
 - Search, filtering, sorting, importing, and exporting operate on the stored records. Separate histories of those operations are not stored.
 
-
+\newpage
 
 # Part 2: Convert E-R Diagram into Tables
 
@@ -92,6 +92,8 @@ VendorBase($\underline{\text{vendor\_id}}$, location_id)
 ReviewPhoto($\underline{\text{photo\_id}}$, review_id)
 
 MenuItemPhoto($\underline{\text{photo\_id}}$, menu_item_id)
+
+\newpage
 
 # Part 3: Verify BCNF and Present Final Schemas
 
