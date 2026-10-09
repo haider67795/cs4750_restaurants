@@ -1,0 +1,470 @@
+---
+title: "Milestone 1"
+format:
+    pdf:
+        include-in-header: 
+            text: |
+                \usepackage{pdfpages}
+author:
+  - name: "Haider Qureshi (xvg3cj)"
+  - name: "Thieron Cook (egw3dw)"
+  - name: "Talaal Maxood (fcp3gj)"
+  - name: "Matthew Vu (qjy4pm)"
+---
+
+# Part 1: Develop E-R Diagram
+
+```{=latex}
+\includepdf[pages=-, landscape=true]{"./media/Milestone1ER.pdf"}
+```
+
+## Design Decisions and Assumptions
+
+Location.address is a composite attribute consisting of street_address,
+city, state, and postal_code. Vendor.average_rating and review_count
+are derived from Review records. All other attributes are simple and
+single-valued. Multiple cuisines and photos are modeled through
+separate entities and relationships, so no multi-valued attributes
+are needed.
+
+- Vendor represents restaurants, food trucks, pop-ups, caterers, and independent cooks. These businesses share the same core attributes and are distinguished by `vendor_type`, so separate subclasses are not needed.
+- A user may submit listings, manage vendors, write reviews, upload photos, and save favorites. Separate user subclasses are not needed because these activities may overlap.
+- Every vendor listing has one submitting user. Imported listings are attributed to the user performing the import. Submitting a listing does not automatically imply management permission.
+- A vendor may have multiple managers, and a user may manage multiple vendors. A community-submitted vendor may initially have no manager.
+- A vendor has at most one regular base location. Multiple vendors may share a base location, and a vendor without a permanent base may have no base location recorded.
+- A vendor may operate at multiple locations through OperatingStop. Each stop represents one particular vendor's dated visit to one location. Different vendors operating at the same location and time have separate stop records.
+- OperatingStop stores scheduled and actual operating times. Actual times may remain unknown until recorded. A vendor may have multiple active operating stops simultaneously, allowing multiple trucks or teams to operate at different locations.
+- OperatingHours stores recurring weekly hours, while OperatingStop stores dated visits. A vendor may have multiple hours records for the same day to represent split shifts.
+- OperatingHours is a weak entity. Its discriminator, `hours_number`, is unique within its owning vendor. Its full key is `(vendor_id, hours_number)`.
+- Each menu item belongs to one vendor. Menu item names are not required to be unique.
+- Each review has one author and concerns one vendor. A user may write multiple reviews for the same vendor.
+- Every photo belongs to one vendor and has one uploader. A photo may optionally attach to one review and/or illustrate one menu item. A review or menu item may have multiple photos.
+- A photo attached to a review or menu item must belong to the same vendor as that review or menu item.
+- Photo records store image URLs rather than image file contents. Separate records may reference the same URL while recording different captions or associations.
+- A vendor may have multiple cuisine tags. Cuisine is a separate entity so tags can be shared consistently between vendors.
+- Favorites represents one collection of saved vendors per user. Multiple named saved lists are not considered in this design.
+- FoodPermit stores one current record per permit. Renewals update the existing record's expiration date and, when applicable, its issued date and document URL. Renewal history is not retained. The combination of issuing authority and permit number uniquely identifies a permit in this application.
+- Permit records provide supporting information and do not automatically establish that a vendor has been independently verified.
+- Search, filtering, sorting, importing, and exporting operate on the stored records. Separate histories of those operations are not stored.
+
+
+
+# Part 2: Convert E-R Diagram into Tables
+
+We use the following rules:
+
+- For a 1–M relationship with total participation on the M side, include a NOT NULL foreign key in the M-side table.
+- For a 1–M relationship with partial participation on the M side, create a separate relationship table whose primary key is the M-side entity's key.
+- For an M–M relationship, create a separate relationship table whose primary key consists of both participating entity keys.
+- For a weak entity, include the owner's key together with the discriminator as the composite primary key.
+- Primary keys are underlined. Multiple underlined attributes in the same table form a composite primary key. The integrity constraints in Part 3 also apply to the Part 2 schemas.
+
+## Schema Statements
+
+User($\underline{\text{user\_id}}$, display_name, email, password_hash, joined_at)
+
+Vendor($\underline{\text{vendor\_id}}$, name, description, vendor_type, phone_number, website_url, listing_status, created_at, timezone, submitted_by_user_id)
+
+Cuisine($\underline{\text{cuisine\_id}}$, cuisine_name)
+
+Location($\underline{\text{location\_id}}$, location_name, street_address, city, state, postal_code, latitude, longitude)
+
+OperatingStop($\underline{\text{stop\_id}}$, vendor_id, location_id, scheduled_start, scheduled_end, actual_start, actual_end, stop_status, notes)
+
+OperatingHours($\underline{\text{vendor\_id}}$, $\underline{\text{hours\_number}}$, day_of_week, opening_time, closing_time)
+
+MenuItem($\underline{\text{menu\_item\_id}}$, vendor_id, item_name, description, price, category, availability_status)
+
+Review($\underline{\text{review\_id}}$, author_user_id, vendor_id, rating, review_text, created_at, updated_at)
+
+Photo($\underline{\text{photo\_id}}$, uploader_user_id, vendor_id, image_url, caption, uploaded_at)
+
+FoodPermit($\underline{\text{permit\_id}}$, vendor_id, permit_number, issuing_authority, permit_type, issued_date, expiration_date, document_url)
+
+Manages($\underline{\text{user\_id}}$, $\underline{\text{vendor\_id}}$, management_role, granted_at)
+
+Favorites($\underline{\text{user\_id}}$, $\underline{\text{vendor\_id}}$, saved_at)
+
+VendorCuisine($\underline{\text{vendor\_id}}$, $\underline{\text{cuisine\_id}}$)
+
+VendorBase($\underline{\text{vendor\_id}}$, location_id)
+
+ReviewPhoto($\underline{\text{photo\_id}}$, review_id)
+
+MenuItemPhoto($\underline{\text{photo\_id}}$, menu_item_id)
+
+# Part 3: Verify BCNF and Present Final Schemas
+
+## Functional Dependencies
+
+We are choosing **BCNF** as the target normal form.
+
+These functional dependencies are based on the information represented by each table, the cardinalities of its relationships, and the application's uniqueness requirements. IDs uniquely identify records, user emails and cuisine names are unique and NOT NULL, and the combination of issuing authority and permit number uniquely identifies a FoodPermit record.
+
+The following lists give a generating set of nontrivial functional dependencies.
+
+### 1. User
+
+- `user_id` → `display_name`, `email`, `password_hash`, `joined_at`
+- `email` → `user_id`, `display_name`, `password_hash`, `joined_at`
+
+Email is a candidate key because it is unique and NOT NULL.
+
+### 2. Vendor
+
+- `vendor_id` → `name`, `description`, `vendor_type`, `phone_number`, `website_url`, `listing_status`, `created_at`, `timezone`, `submitted_by_user_id`
+
+Vendor names, phone numbers, and website URLs are not required to be unique. Vendors sharing these values can have different profile details.
+
+### 3. Cuisine
+
+- `cuisine_id` → `cuisine_name`
+- `cuisine_name` → `cuisine_id`
+
+Cuisine name is a candidate key because it is unique and NOT NULL.
+
+### 4. Location
+
+- `location_id` → `location_name`, `street_address`, `city`, `state`, `postal_code`, `latitude`, `longitude`
+
+A Location record represents a named operating place. Distinct named places may share an address or recorded coordinates. Address components are stored as supplied for that place; the application does not maintain a standardized postal-code lookup that determines other address fields.
+
+### 5. OperatingStop
+
+- `stop_id` → `vendor_id`, `location_id`, `scheduled_start`, `scheduled_end`, `actual_start`, `actual_end`, `stop_status`, `notes`
+
+A vendor can have multiple stops, and a location can host multiple stops. Neither `vendor_id` nor `location_id` alone determines a stop. Scheduled times do not determine actual operating times.
+
+### 6. OperatingHours
+
+- (`vendor_id`, `hours_number`) → `day_of_week`, `opening_time`, `closing_time`
+
+The hours number is unique only within its vendor. A vendor can have multiple hours records for the same day, so (`vendor_id`, `day_of_week`) does not uniquely identify a record.
+
+### 7. MenuItem
+
+- `menu_item_id` → `vendor_id`, `item_name`, `description`, `price`, `category`, `availability_status`
+
+Item names are not required to be unique, either globally or within a vendor. Items sharing a name or category may have different prices and descriptions.
+
+### 8. Review
+
+- `review_id` → `author_user_id`, `vendor_id`, `rating`, `review_text`, `created_at`, `updated_at`
+
+A user may write multiple reviews for the same vendor, so (`author_user_id`, `vendor_id`) is not a candidate key.
+
+### 9. Photo
+
+- `photo_id` → `uploader_user_id`, `vendor_id`, `image_url`, `caption`, `uploaded_at`
+
+Separate Photo records may reference the same image URL while having different captions, uploaders, or vendor associations. Therefore, the image URL does not uniquely identify a Photo record.
+
+### 10. FoodPermit
+
+- `permit_id` → `vendor_id`, `permit_number`, `issuing_authority`, `permit_type`, `issued_date`, `expiration_date`, `document_url`
+- (`issuing_authority`, `permit_number`) → `permit_id`, `vendor_id`, `permit_type`, `issued_date`, `expiration_date`, `document_url`
+
+The application stores one current record per permit. Renewal updates that record rather than creating a separate historical record. The combination (`issuing_authority`, `permit_number`) is unique and NOT NULL, making it another candidate key.
+
+### 11. Manages
+
+- (`user_id`, `vendor_id`) → `management_role`, `granted_at`
+
+The role and grant date depend on the particular user–vendor pair. Neither ID alone determines them.
+
+### 12. Favorites
+
+- (`user_id`, `vendor_id`) → `saved_at`
+
+The saved timestamp depends on the particular user–vendor pair.
+
+### 13. VendorCuisine
+
+- There are no nontrivial functional dependencies under the many-to-many relationship rules.
+
+The composite key is (`vendor_id`, `cuisine_id`). Both columns belong to the key. A vendor may have multiple cuisines, and a cuisine may classify multiple vendors, so neither column determines the other.
+
+### 14. VendorBase
+
+- `vendor_id` → `location_id`
+
+Each vendor has at most one regular base location. A location may be the base for multiple vendors, so the reverse dependency does not hold.
+
+### 15. ReviewPhoto
+
+- `photo_id` → `review_id`
+
+A photo attaches to at most one review. A review may include multiple photos, so the reverse dependency does not hold.
+
+### 16. MenuItemPhoto
+
+- `photo_id` → `menu_item_id`
+
+A photo illustrates at most one menu item. A menu item may have multiple photos, so the reverse dependency does not hold.
+
+## Verifying BCNF
+
+To show that a table satisfies BCNF, we check that the left-hand side of every nontrivial functional dependency is a superkey.
+
+For the functional dependencies identified from our business rules, all 16 tables satisfy BCNF. No decomposition is required.
+
+### 1. User
+
+- For the dependency with `user_id` on the left-hand side, `user_id` is a candidate key and therefore a superkey.
+- For the dependency with `email` on the left-hand side, `email` is a candidate key and therefore a superkey.
+
+**User is in BCNF.**
+
+### 2. Vendor
+
+- `vendor_id` is the primary key and therefore a superkey.
+
+**Vendor is in BCNF.**
+
+### 3. Cuisine
+
+- For `cuisine_id` → `cuisine_name`, `cuisine_id` is a candidate key and therefore a superkey.
+- For `cuisine_name` → `cuisine_id`, `cuisine_name` is a candidate key and therefore a superkey.
+
+**Cuisine is in BCNF.**
+
+### 4. Location
+
+- `location_id` is the primary key and therefore a superkey.
+
+**Location is in BCNF.**
+
+### 5. OperatingStop
+
+- `stop_id` is the primary key and therefore a superkey.
+
+**OperatingStop is in BCNF.**
+
+### 6. OperatingHours
+
+- (`vendor_id`, `hours_number`) is the composite primary key and therefore a superkey.
+
+**OperatingHours is in BCNF.**
+
+### 7. MenuItem
+
+- `menu_item_id` is the primary key and therefore a superkey.
+
+**MenuItem is in BCNF.**
+
+### 8. Review
+
+- `review_id` is the primary key and therefore a superkey.
+
+**Review is in BCNF.**
+
+### 9. Photo
+
+- `photo_id` is the primary key and therefore a superkey.
+
+**Photo is in BCNF.**
+
+### 10. FoodPermit
+
+- For the dependency with `permit_id` on the left-hand side, `permit_id` is a candidate key and therefore a superkey.
+- For the dependency with (`issuing_authority`, `permit_number`) on the left-hand side, that pair is a candidate key and therefore a superkey.
+
+**FoodPermit is in BCNF.**
+
+### 11. Manages
+
+- (`user_id`, `vendor_id`) is the composite primary key and therefore a superkey.
+
+**Manages is in BCNF.**
+
+### 12. Favorites
+
+- (`user_id`, `vendor_id`) is the composite primary key and therefore a superkey.
+
+**Favorites is in BCNF.**
+
+### 13. VendorCuisine
+
+- There are no nontrivial functional dependencies under the many-to-many relationship rules, so there is no dependency that violates the superkey requirement.
+
+**VendorCuisine is in BCNF.**
+
+### 14. VendorBase
+
+- For `vendor_id` → `location_id`, `vendor_id` is the primary key and therefore a superkey.
+
+**VendorBase is in BCNF.**
+
+### 15. ReviewPhoto
+
+- For `photo_id` → `review_id`, `photo_id` is the primary key and therefore a superkey.
+
+**ReviewPhoto is in BCNF.**
+
+### 16. MenuItemPhoto
+
+- For `photo_id` → `menu_item_id`, `photo_id` is the primary key and therefore a superkey.
+
+**MenuItemPhoto is in BCNF.**
+
+## Final Schema Statements
+
+
+User($\underline{\text{user\_id}}$, display_name, email, password_hash, joined_at)
+
+Vendor($\underline{\text{vendor\_id}}$, name, description, vendor_type, phone_number, website_url, listing_status, created_at, timezone, submitted_by_user_id)
+
+Cuisine($\underline{\text{cuisine\_id}}$, cuisine_name)
+
+Location($\underline{\text{location\_id}}$, location_name, street_address, city, state, postal_code, latitude, longitude)
+
+OperatingStop($\underline{\text{stop\_id}}$, vendor_id, location_id, scheduled_start, scheduled_end, actual_start, actual_end, stop_status, notes)
+
+OperatingHours($\underline{\text{vendor\_id}}$, $\underline{\text{hours\_number}}$, day_of_week, opening_time, closing_time)
+
+MenuItem($\underline{\text{menu\_item\_id}}$, vendor_id, item_name, description, price, category, availability_status)
+
+Review($\underline{\text{review\_id}}$, author_user_id, vendor_id, rating, review_text, created_at, updated_at)
+
+Photo($\underline{\text{photo\_id}}$, uploader_user_id, vendor_id, image_url, caption, uploaded_at)
+
+FoodPermit($\underline{\text{permit\_id}}$, vendor_id, permit_number, issuing_authority, permit_type, issued_date, expiration_date, document_url)
+
+Manages($\underline{\text{user\_id}}$, $\underline{\text{vendor\_id}}$, management_role, granted_at)
+
+Favorites($\underline{\text{user\_id}}$, $\underline{\text{vendor\_id}}$, saved_at)
+
+VendorCuisine($\underline{\text{vendor\_id}}$, $\underline{\text{cuisine\_id}}$)
+
+VendorBase($\underline{\text{vendor\_id}}$, location_id)
+
+ReviewPhoto($\underline{\text{photo\_id}}$, review_id)
+
+MenuItemPhoto($\underline{\text{photo\_id}}$, menu_item_id)
+
+## Integrity Constraints
+
+All primary keys are unique and NOT NULL. For composite primary keys, uniqueness applies to the combination, and every component is NOT NULL.
+
+All foreign keys listed below are NOT NULL. For optional relationships represented by separate tables, no row is stored when the relationship does not exist.
+
+Attributes not identified as required below may be NULL.
+
+### 1. User
+
+- Primary key: `user_id`.
+- UNIQUE: `email`.
+- Additional NOT NULL attributes: `display_name`, `email`, `password_hash`, `joined_at`.
+- Passwords are stored as hashes.
+
+### 2. Vendor
+
+- Primary key: `vendor_id`.
+- Foreign key: `submitted_by_user_id` references `User.user_id`.
+- Additional NOT NULL attributes: `name`, `vendor_type`, `listing_status`, `created_at`, `timezone`.
+- `average_rating` and `review_count` are calculated from Review and are not stored.
+
+### 3. Cuisine
+
+- Primary key: `cuisine_id`.
+- UNIQUE: `cuisine_name`.
+- Additional NOT NULL attribute: `cuisine_name`.
+
+### 4. Location
+
+- Primary key: `location_id`.
+- Additional NOT NULL attributes: `latitude`, `longitude`.
+- Latitude must be between -90 and 90.
+- Longitude must be between -180 and 180.
+- Address components may be NULL for operating locations without a usable street address.
+
+### 5. OperatingStop
+
+- Primary key: `stop_id`.
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- Foreign key: `location_id` references `Location.location_id`.
+- Additional NOT NULL attributes: `scheduled_start`, `scheduled_end`, `stop_status`.
+- Scheduled end must follow scheduled start.
+- Actual end, when present, requires an actual start and must follow it.
+- A vendor may have multiple active operating stops simultaneously, allowing multiple trucks or teams to operate at different locations.
+
+### 6. OperatingHours
+
+- Primary key: (`vendor_id`, `hours_number`).
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- Additional NOT NULL attributes: `day_of_week`, `opening_time`, `closing_time`.
+- `day_of_week` must identify a valid day of the week.
+- A closing time earlier than the opening time represents closing on the following day.
+
+### 7. MenuItem
+
+- Primary key: `menu_item_id`.
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- Additional NOT NULL attributes: `item_name`, `price`, `availability_status`.
+- Price must be nonnegative.
+
+### 8. Review
+
+- Primary key: `review_id`.
+- Foreign key: `author_user_id` references `User.user_id`.
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- Additional NOT NULL attributes: `rating`, `review_text`, `created_at`.
+- Rating must be an integer from 1 through 5.
+
+### 9. Photo
+
+- Primary key: `photo_id`.
+- Foreign key: `uploader_user_id` references `User.user_id`.
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- Additional NOT NULL attributes: `image_url`, `uploaded_at`.
+
+### 10. FoodPermit
+
+- Primary key: `permit_id`.
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- UNIQUE combination: (`issuing_authority`, `permit_number`).
+- Additional NOT NULL attributes: `permit_number`, `issuing_authority`, `permit_type`.
+- Renewal updates the existing permit record rather than inserting a separate renewal record.
+
+### 11. Manages
+
+- Primary key: (`user_id`, `vendor_id`).
+- Foreign key: `user_id` references `User.user_id`.
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- Additional NOT NULL attributes: `management_role`, `granted_at`.
+
+### 12. Favorites
+
+- Primary key: (`user_id`, `vendor_id`).
+- Foreign key: `user_id` references `User.user_id`.
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- Additional NOT NULL attribute: `saved_at`.
+
+### 13. VendorCuisine
+
+- Primary key: (`vendor_id`, `cuisine_id`).
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- Foreign key: `cuisine_id` references `Cuisine.cuisine_id`.
+
+### 14. VendorBase
+
+- Primary key: `vendor_id`.
+- Foreign key: `vendor_id` references `Vendor.vendor_id`.
+- Foreign key: `location_id` references `Location.location_id`.
+- The primary key limits each vendor to at most one regular base location.
+
+### 15. ReviewPhoto
+
+- Primary key: `photo_id`.
+- Foreign key: `photo_id` references `Photo.photo_id`.
+- Foreign key: `review_id` references `Review.review_id`.
+- The primary key limits each photo to at most one review.
+- The photo and review must reference the same vendor.
+
+### 16. MenuItemPhoto
+
+- Primary key: `photo_id`.
+- Foreign key: `photo_id` references `Photo.photo_id`.
+- Foreign key: `menu_item_id` references `MenuItem.menu_item_id`.
+- The primary key limits each photo to at most one menu item.
+- The photo and menu item must reference the same vendor.
