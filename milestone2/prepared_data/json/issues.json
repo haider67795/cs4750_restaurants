@@ -1,0 +1,380 @@
+[
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 5,
+    "day": "Friday",
+    "value": "5–8:30PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 5,
+    "day": "Saturday",
+    "value": "5–8:30PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 5,
+    "day": "Tuesday",
+    "value": "5–8:30PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 5,
+    "day": "Wednesday",
+    "value": "5–8:30PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 5,
+    "day": "Thursday",
+    "value": "5–8:30PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 10,
+    "day": "Friday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 10,
+    "day": "Saturday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 10,
+    "day": "Sunday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 10,
+    "day": "Wednesday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 10,
+    "day": "Thursday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 28,
+    "day": "Tuesday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 28,
+    "day": "Wednesday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 28,
+    "day": "Thursday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 28,
+    "day": "Friday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 28,
+    "day": "Saturday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 28,
+    "day": "Sunday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 40,
+    "day": "Sunday",
+    "value": "12–6PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 41,
+    "day": "Tuesday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 41,
+    "day": "Wednesday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 41,
+    "day": "Thursday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 41,
+    "day": "Friday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 41,
+    "day": "Saturday",
+    "value": "8–11AM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 41,
+    "day": "Sunday",
+    "value": "8–11AM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 41,
+    "day": "Monday",
+    "value": "5–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 42,
+    "day": "Saturday",
+    "value": "4:30–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 42,
+    "day": "Sunday",
+    "value": "4:30–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 42,
+    "day": "Wednesday",
+    "value": "4:30–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 42,
+    "day": "Thursday",
+    "value": "4:30–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 42,
+    "day": "Friday",
+    "value": "4:30–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 44,
+    "day": "Thursday",
+    "value": "4–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 44,
+    "day": "Friday",
+    "value": "4–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 45,
+    "day": "Thursday",
+    "value": "4–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 45,
+    "day": "Friday",
+    "value": "4–10PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 45,
+    "day": "Saturday",
+    "value": "12–10PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 45,
+    "day": "Sunday",
+    "value": "4–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 45,
+    "day": "Monday",
+    "value": "4–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 45,
+    "day": "Tuesday",
+    "value": "4–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 45,
+    "day": "Wednesday",
+    "value": "4–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 47,
+    "day": "Monday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 47,
+    "day": "Tuesday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 47,
+    "day": "Wednesday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 47,
+    "day": "Thursday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 47,
+    "day": "Friday",
+    "value": "12–10PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 49,
+    "day": "Sunday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 54,
+    "day": "Wednesday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 54,
+    "day": "Thursday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 54,
+    "day": "Friday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 54,
+    "day": "Saturday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 54,
+    "day": "Sunday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 54,
+    "day": "Monday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 60,
+    "day": "Saturday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 60,
+    "day": "Sunday",
+    "value": "12–6PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 60,
+    "day": "Monday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 60,
+    "day": "Tuesday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 60,
+    "day": "Wednesday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 60,
+    "day": "Thursday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 60,
+    "day": "Friday",
+    "value": "12–8PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 61,
+    "day": "Sunday",
+    "value": "12–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 69,
+    "day": "Sunday",
+    "value": "12–5PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 70,
+    "day": "Wednesday",
+    "value": "5–10PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 70,
+    "day": "Thursday",
+    "value": "5–10PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 75,
+    "day": "Monday",
+    "value": "4–9PM"
+  },
+  {
+    "type": "inferred_hours_meridiem",
+    "vendor_id": 75,
+    "day": "Tuesday",
+    "value": "4–9:30PM"
+  }
+]

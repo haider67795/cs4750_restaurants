@@ -1,0 +1,25 @@
+{
+  "row_counts": {
+    "User": 146,
+    "Vendor": 28,
+    "Cuisine": 14,
+    "Location": 25,
+    "OperatingHours": 185,
+    "Review": 161,
+    "Photo": 241,
+    "VendorCuisine": 35,
+    "VendorBase": 25,
+    "ReviewPhoto": 157,
+    "OperatingStop": 112,
+    "MenuItem": 84,
+    "FoodPermit": 28,
+    "Manages": 30,
+    "Favorites": 60,
+    "MenuItemPhoto": 84
+  },
+  "insert_statements": 16,
+  "real_businesses": 25,
+  "demo_mobile_vendors": 3,
+  "selection": "At most five real and two demo reviews per vendor; up to two photos per retained review; all menus, permits, hours, and stops for retained vendors; five demo favorites per demo customer.",
+  "note": "Smaller practice seed; this does not establish instructor approval of synthetic data, data sufficiency, or SQL authorship. Existing database is unchanged."
+}

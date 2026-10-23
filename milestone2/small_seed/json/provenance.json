@@ -1,0 +1,7401 @@
+[
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 1
+    },
+    "column": "description",
+    "kind": "synthetic_placeholder",
+    "reason": "Not the actual business description"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 1
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 1
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 2
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 2
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 3
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 3
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 4
+    },
+    "column": "description",
+    "kind": "synthetic_placeholder",
+    "reason": "Not the actual business description"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 4
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 4
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 5
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 5
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 6
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 6
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 7
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 7
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 8
+    },
+    "column": "description",
+    "kind": "synthetic_placeholder",
+    "reason": "Not the actual business description"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 8
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 8
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 9
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 9
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 10
+    },
+    "column": "description",
+    "kind": "synthetic_placeholder",
+    "reason": "Not the actual business description"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 10
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 10
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 11
+    },
+    "column": "description",
+    "kind": "synthetic_placeholder",
+    "reason": "Not the actual business description"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 11
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 11
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 12
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 12
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 13
+    },
+    "column": "description",
+    "kind": "synthetic_placeholder",
+    "reason": "Not the actual business description"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 13
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 13
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 14
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 14
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 15
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 15
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 16
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 16
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 17
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 17
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 18
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 18
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 19
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 19
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 20
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 20
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 21
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 21
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 22
+    },
+    "column": "description",
+    "kind": "synthetic_placeholder",
+    "reason": "Not the actual business description"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 22
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 22
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 23
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 23
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 24
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 24
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 25
+    },
+    "column": "description",
+    "kind": "synthetic_placeholder",
+    "reason": "Not the actual business description"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 25
+    },
+    "column": "phone_number",
+    "kind": "synthetic_placeholder",
+    "reason": "Fictional reserved 555-01xx demonstration number"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 25
+    },
+    "column": "website_url",
+    "kind": "synthetic_placeholder",
+    "reason": "Nonexistent placeholder website"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 4
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 268
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 269
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 270
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 271
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 272
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 275
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 276
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 282
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 284
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 285
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 286
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 287
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 292
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 293
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 295
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 296
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 307
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 308
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 312
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 313
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 318
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 319
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 447
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 448
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 449
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 450
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 451
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 456
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 457
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 459
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 460
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 556
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 557
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 558
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 559
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 560
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 561
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 562
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 564
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 565
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 580
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 581
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 582
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 583
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 584
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 585
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 662
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 663
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 675
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 676
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 694
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 695
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 701
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 702
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 707
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 708
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 721
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 722
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 723
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 726
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 727
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 731
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 732
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 733
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 734
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 735
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 736
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 737
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 758
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 759
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 760
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 761
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 800
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 801
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 804
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 805
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 883
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 884
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 887
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 888
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 889
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 891
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 892
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 902
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 903
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 910
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 911
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 920
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 921
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 925
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 926
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 927
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 928
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 929
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1028
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1029
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1034
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1035
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1036
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1037
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1038
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1039
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1041
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1042
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1134
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1135
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1137
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1138
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1139
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1348
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1349
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1350
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1353
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1354
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1355
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1356
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1359
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1360
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1506
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1507
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1512
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1513
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1514
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1515
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1524
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1525
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1528
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1529
+    },
+    "column": "caption",
+    "kind": "synthetic_placeholder",
+    "reason": "Explanatory caption, not source wording"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 76
+    },
+    "kind": "synthetic",
+    "reason": "Fictional mobile vendor"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 77
+    },
+    "kind": "synthetic",
+    "reason": "Fictional mobile vendor"
+  },
+  {
+    "table": "Vendor",
+    "key": {
+      "vendor_id": 81
+    },
+    "kind": "synthetic",
+    "reason": "Fictional mobile vendor"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13866
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13867
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13868
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13869
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13870
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13871
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13872
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13873
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13874
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13875
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13876
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13877
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13878
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13879
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13880
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13881
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13882
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13883
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13884
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13885
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13886
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13887
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13888
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13889
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13890
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13941
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13942
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13946
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13947
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13948
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13949
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13950
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13951
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13952
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13953
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13954
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13955
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13956
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13957
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "User",
+    "key": {
+      "user_id": 13958
+    },
+    "kind": "synthetic",
+    "reason": "Fictional demo account, not an imported reviewer"
+  },
+  {
+    "table": "Cuisine",
+    "key": {
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Unknown cuisine placeholder; not an inferred geographic cuisine"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13866,
+      "vendor_id": 1
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 1,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 1,
+      "hours_number": 1
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 1,
+      "hours_number": 2
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 1,
+      "hours_number": 3
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 1,
+      "hours_number": 4
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 1,
+      "hours_number": 5
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 1,
+      "hours_number": 6
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 1,
+      "hours_number": 7
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 1
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1541
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1541
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 2
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1542
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1542
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 3
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1543
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1543
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 1
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 1
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 2
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 3
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 4
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15057
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1544
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1544
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15058
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13867,
+      "vendor_id": 2
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 4
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1545
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1545
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 5
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1546
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1546
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 6
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1547
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1547
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 2
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 5
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 6
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 7
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 8
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15059
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1548
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1548
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15060
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13868,
+      "vendor_id": 3
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 3,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 7
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1549
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1549
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 8
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1550
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1550
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 9
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1551
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1551
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 3
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 9
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 10
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 11
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 12
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15061
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1552
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1552
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15062
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13869,
+      "vendor_id": 4
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 4,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 10
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1553
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1553
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 11
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1554
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1554
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 12
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1555
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1555
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 4
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 13
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 14
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 15
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 16
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15063
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1556
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1556
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15064
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13870,
+      "vendor_id": 5
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 13
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1557
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1557
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 14
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1558
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1558
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 15
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1559
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1559
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 5
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 17
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 18
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 19
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 20
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15065
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1560
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1560
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15066
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13871,
+      "vendor_id": 6
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 6,
+      "hours_number": 1
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 6,
+      "hours_number": 2
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 6,
+      "hours_number": 3
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 6,
+      "hours_number": 4
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 6,
+      "hours_number": 5
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 6,
+      "hours_number": 6
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 6,
+      "hours_number": 7
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 16
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1561
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1561
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 17
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1562
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1562
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 18
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1563
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1563
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 6
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 21
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 22
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 23
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15067
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1564
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1564
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15068
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13872,
+      "vendor_id": 7
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 19
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1565
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1565
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 20
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1566
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1566
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 21
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1567
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1567
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 7
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 25
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 26
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 27
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 28
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15069
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1568
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1568
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15070
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13873,
+      "vendor_id": 8
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 22
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1569
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1569
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 23
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1570
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1570
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1571
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1571
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 8
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 29
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 30
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 31
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 32
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15071
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1572
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1572
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15072
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13874,
+      "vendor_id": 9
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 9,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 25
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1573
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1573
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 26
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1574
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1574
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 27
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1575
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1575
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 9
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 33
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 34
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 35
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 36
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15073
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1576
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1576
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15074
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13875,
+      "vendor_id": 10
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13947,
+      "vendor_id": 10
+    },
+    "kind": "synthetic",
+    "reason": "Fictional shared management example"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 10,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 28
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1577
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1577
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 29
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1578
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1578
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 30
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1579
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1579
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 10
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 37
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 38
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 39
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 40
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15075
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1580
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1580
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15076
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13876,
+      "vendor_id": 11
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 11,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 31
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1581
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1581
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 32
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1582
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1582
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 33
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1583
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1583
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 11
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 41
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 42
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 43
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 44
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15077
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1584
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1584
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15078
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13877,
+      "vendor_id": 12
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 12,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 34
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1585
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1585
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 35
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1586
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1586
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 36
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1587
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1587
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 12
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 45
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 46
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 47
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 48
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15079
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1588
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1588
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15080
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13878,
+      "vendor_id": 13
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 37
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1589
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1589
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 38
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1590
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1590
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 39
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1591
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1591
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 13
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 49
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 50
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 51
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 52
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15081
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1592
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1592
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15082
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13879,
+      "vendor_id": 14
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 14,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 40
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1593
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1593
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 41
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1594
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1594
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 42
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1595
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1595
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 14
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 53
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 54
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 55
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 56
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15083
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1596
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1596
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15084
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13880,
+      "vendor_id": 15
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 43
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1597
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1597
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 44
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1598
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1598
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 45
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1599
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1599
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 15
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 57
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 58
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 59
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 60
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15085
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1600
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1600
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15086
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13881,
+      "vendor_id": 16
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 46
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1601
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1601
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 47
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1602
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1602
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 48
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1603
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1603
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 16
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 61
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 62
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 63
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 64
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15087
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1604
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1604
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15088
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13882,
+      "vendor_id": 17
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 17,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 49
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1605
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1605
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 50
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1606
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1606
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 51
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1607
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1607
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 17
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 65
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 66
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 67
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 68
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15089
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1608
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1608
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15090
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13883,
+      "vendor_id": 18
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 18,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 52
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1609
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1609
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 53
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1610
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1610
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 54
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1611
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1611
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 18
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 69
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 70
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 71
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 72
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15091
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1612
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1612
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15092
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13884,
+      "vendor_id": 19
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 55
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1613
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1613
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 56
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1614
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1614
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 57
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1615
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1615
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 19
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 73
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 74
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 75
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 76
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15093
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1616
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1616
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15094
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13885,
+      "vendor_id": 20
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13947,
+      "vendor_id": 20
+    },
+    "kind": "synthetic",
+    "reason": "Fictional shared management example"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 58
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1617
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1617
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 59
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1618
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1618
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 60
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1619
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1619
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 20
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 77
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 78
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 79
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 80
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15095
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1620
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1620
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15096
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13886,
+      "vendor_id": 21
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 21,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 61
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1621
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1621
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 62
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1622
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1622
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 63
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1623
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1623
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 21
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 81
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 82
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 83
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 84
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15097
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1624
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1624
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15098
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13887,
+      "vendor_id": 22
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 22,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 64
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1625
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1625
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 65
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1626
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1626
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 66
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1627
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1627
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 22
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 85
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 86
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 87
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 88
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15099
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1628
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1628
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15100
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13888,
+      "vendor_id": 23
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 67
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1629
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1629
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 68
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1630
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1630
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 69
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1631
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1631
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 23
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 89
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 90
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 91
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 92
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15101
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1632
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1632
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15102
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13889,
+      "vendor_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 70
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1633
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1633
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 71
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1634
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1634
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 72
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1635
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1635
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 93
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 94
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 95
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 96
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15103
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1636
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1636
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15104
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13890,
+      "vendor_id": 25
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 25,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 25,
+      "hours_number": 1
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 25,
+      "hours_number": 2
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 25,
+      "hours_number": 3
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 25,
+      "hours_number": 4
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 25,
+      "hours_number": 5
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 25,
+      "hours_number": 6
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 25,
+      "hours_number": 7
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 73
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1637
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1637
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 74
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1638
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1638
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 75
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1639
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1639
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 25
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 97
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 98
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 99
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 100
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15105
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1640
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1640
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15106
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13941,
+      "vendor_id": 76
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 76,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 76,
+      "hours_number": 1
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 76,
+      "hours_number": 2
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 76,
+      "hours_number": 3
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 76,
+      "hours_number": 4
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 76,
+      "hours_number": 5
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 76,
+      "hours_number": 6
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 76,
+      "hours_number": 7
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 226
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1841
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1841
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 227
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1842
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1842
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 228
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1843
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1843
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 76
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 301
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 302
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 303
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 304
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15207
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1844
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1844
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15208
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13942,
+      "vendor_id": 77
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 77,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 77,
+      "hours_number": 1
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 77,
+      "hours_number": 2
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 77,
+      "hours_number": 3
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 77,
+      "hours_number": 4
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 77,
+      "hours_number": 5
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 77,
+      "hours_number": 6
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 77,
+      "hours_number": 7
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 229
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1845
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1845
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 230
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1846
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1846
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 231
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1847
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1847
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 77
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 305
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 306
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 307
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 308
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15209
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1848
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1848
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15210
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Manages",
+    "key": {
+      "user_id": 13946,
+      "vendor_id": 81
+    },
+    "kind": "synthetic",
+    "reason": "Fictional management permission; does not identify actual business owner"
+  },
+  {
+    "table": "VendorCuisine",
+    "key": {
+      "vendor_id": 81,
+      "cuisine_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Explicit unspecified cuisine fallback"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 81,
+      "hours_number": 1
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 81,
+      "hours_number": 2
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 81,
+      "hours_number": 3
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 81,
+      "hours_number": 4
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 81,
+      "hours_number": 5
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 81,
+      "hours_number": 6
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "OperatingHours",
+    "key": {
+      "vendor_id": 81,
+      "hours_number": 7
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic weekly hours; not verified business hours"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 241
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1861
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1861
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 242
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1862
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1862
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "MenuItem",
+    "key": {
+      "menu_item_id": 243
+    },
+    "kind": "synthetic",
+    "reason": "Fictional menu offering; image reference from TheMealDB"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1863
+    },
+    "kind": "synthetic",
+    "reason": "Generic online menu illustration, not a real vendor photo"
+  },
+  {
+    "table": "MenuItemPhoto",
+    "key": {
+      "photo_id": 1863
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor illustrative menu/photo relationship"
+  },
+  {
+    "table": "FoodPermit",
+    "key": {
+      "permit_id": 81
+    },
+    "kind": "synthetic",
+    "reason": "Fictional permit for database testing; no regulatory or verification claim"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 321
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 322
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 323
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "OperatingStop",
+    "key": {
+      "stop_id": 324
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic dated operating-stop example"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15217
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Photo",
+    "key": {
+      "photo_id": 1864
+    },
+    "kind": "synthetic",
+    "reason": "Synthetic review illustration"
+  },
+  {
+    "table": "ReviewPhoto",
+    "key": {
+      "photo_id": 1864
+    },
+    "kind": "synthetic",
+    "reason": "Same-vendor synthetic review/photo relationship"
+  },
+  {
+    "table": "Review",
+    "key": {
+      "review_id": 15218
+    },
+    "kind": "synthetic",
+    "reason": "Explicitly synthetic customer review"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13947,
+      "vendor_id": 7
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13947,
+      "vendor_id": 13
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13947,
+      "vendor_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13947,
+      "vendor_id": 76
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13947,
+      "vendor_id": 81
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13948,
+      "vendor_id": 11
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13948,
+      "vendor_id": 16
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13948,
+      "vendor_id": 18
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13948,
+      "vendor_id": 19
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13948,
+      "vendor_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13949,
+      "vendor_id": 22
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13950,
+      "vendor_id": 2
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13950,
+      "vendor_id": 13
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13950,
+      "vendor_id": 15
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13950,
+      "vendor_id": 20
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13950,
+      "vendor_id": 23
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13951,
+      "vendor_id": 14
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13952,
+      "vendor_id": 1
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13952,
+      "vendor_id": 11
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13952,
+      "vendor_id": 22
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13952,
+      "vendor_id": 23
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13952,
+      "vendor_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13953,
+      "vendor_id": 1
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13953,
+      "vendor_id": 8
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13953,
+      "vendor_id": 10
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13953,
+      "vendor_id": 11
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13953,
+      "vendor_id": 23
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13954,
+      "vendor_id": 9
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13954,
+      "vendor_id": 10
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13954,
+      "vendor_id": 20
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13954,
+      "vendor_id": 25
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13955,
+      "vendor_id": 2
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13955,
+      "vendor_id": 4
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13955,
+      "vendor_id": 7
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13955,
+      "vendor_id": 10
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13955,
+      "vendor_id": 17
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13956,
+      "vendor_id": 17
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13956,
+      "vendor_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13956,
+      "vendor_id": 81
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13957,
+      "vendor_id": 9
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13957,
+      "vendor_id": 11
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13957,
+      "vendor_id": 12
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13957,
+      "vendor_id": 15
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13957,
+      "vendor_id": 19
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13958,
+      "vendor_id": 16
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13958,
+      "vendor_id": 24
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13958,
+      "vendor_id": 81
+    },
+    "kind": "synthetic",
+    "reason": "Fictional saved-vendor activity by demo customer"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13949,
+      "vendor_id": 19
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13949,
+      "vendor_id": 5
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13949,
+      "vendor_id": 8
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13949,
+      "vendor_id": 9
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13951,
+      "vendor_id": 11
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13951,
+      "vendor_id": 16
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13951,
+      "vendor_id": 77
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13951,
+      "vendor_id": 15
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13954,
+      "vendor_id": 18
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13956,
+      "vendor_id": 7
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13956,
+      "vendor_id": 8
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13958,
+      "vendor_id": 13
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  },
+  {
+    "table": "Favorites",
+    "key": {
+      "user_id": 13958,
+      "vendor_id": 12
+    },
+    "kind": "synthetic",
+    "reason": "Demo saved vendor added to keep five favorites per demo customer in the smaller seed"
+  }
+]

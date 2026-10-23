@@ -1,0 +1,584 @@
+---
+title: "Milestone 2"
+format:
+    pdf:
+        include-in-header:
+            text: |
+                \usepackage{pdfpages}
+                \usepackage{pdflscape}
+                \usepackage{fvextra}
+                \fvset{breaklines=true,breakanywhere=true}
+author:
+  - name: "Haider Qureshi (xvg3cj)"
+  - name: "Thieron Cook (egw3dw)"
+  - name: "Talaal Maxood (fcp3gj)"
+  - name: "Matthew Vu (qjy4pm)"
+---
+
+<!-- Working draft. Table schema/count screenshots are included.
+Representative query-test screenshots and grader-feedback notes remain to add. -->
+
+# Part 1: Database Server
+
+Our food discovery and management platform uses a remote MySQL database named
+`restaurants`, hosted at `35.245.147.165`. The inspected server reports
+`8.4.11-google`. Connections require TLS using `--ssl-mode=REQUIRED`.
+All 16 application tables use InnoDB. 
+
+The database has been populated with a mix of real-and-synthetic dataset. Test insertions,
+updates, and deletions ran in a transaction that was rolled back. Row counts
+were checked before and after the tests and did not change.
+
+The application interface is not implemented in this milestone report. Its
+planned SQL operations are tested directly against MySQL. A later PHP or Python
+backend will execute the queries with bound parameters and handle user sessions,
+file uploads, and CSV/JSON downloads.
+
+\newpage
+
+# Part 2: Table Schemas
+
+## Final E-R Diagram
+
+The implementation retains all 16 tables from Milestone 1 and no tables were excluded.
+The following diagram is the Milestone 1 design used for this implementation (unchanged).
+
+```{=latex}
+\includepdf[pages=-, landscape=true]{"./media/Milestone1ER.pdf"}
+```
+
+## Final Normalized Schemas (Unchanged)
+
+User($\underline{\text{user\_id}}$, display_name, email, password_hash, joined_at)
+
+Vendor($\underline{\text{vendor\_id}}$, name, description, vendor_type, phone_number, website_url, listing_status, created_at, timezone, submitted_by_user_id)
+
+Cuisine($\underline{\text{cuisine\_id}}$, cuisine_name)
+
+Location($\underline{\text{location\_id}}$, location_name, street_address, city, state, postal_code, latitude, longitude)
+
+OperatingStop($\underline{\text{stop\_id}}$, vendor_id, location_id, scheduled_start, scheduled_end, actual_start, actual_end, stop_status, notes)
+
+OperatingHours($\underline{\text{vendor\_id}}$, $\underline{\text{hours\_number}}$, day_of_week, opening_time, closing_time)
+
+MenuItem($\underline{\text{menu\_item\_id}}$, vendor_id, item_name, description, price, category, availability_status)
+
+Review($\underline{\text{review\_id}}$, author_user_id, vendor_id, rating, review_text, created_at, updated_at)
+
+Photo($\underline{\text{photo\_id}}$, uploader_user_id, vendor_id, image_url, caption, uploaded_at)
+
+FoodPermit($\underline{\text{permit\_id}}$, vendor_id, permit_number, issuing_authority, permit_type, issued_date, expiration_date, document_url)
+
+Manages($\underline{\text{user\_id}}$, $\underline{\text{vendor\_id}}$, management_role, granted_at)
+
+Favorites($\underline{\text{user\_id}}$, $\underline{\text{vendor\_id}}$, saved_at)
+
+VendorCuisine($\underline{\text{vendor\_id}}$, $\underline{\text{cuisine\_id}}$)
+
+VendorBase($\underline{\text{vendor\_id}}$, location_id)
+
+ReviewPhoto($\underline{\text{photo\_id}}$, review_id)
+
+MenuItemPhoto($\underline{\text{photo\_id}}$, menu_item_id)
+
+## Implementation Decisions
+
+- Primary keys and foreign keys preserve the relationships in Milestone 1.
+  Optional relationships such as a vendor's base and a photo's review attachment
+  are represented by separate relationship tables.
+- `OperatingHours.day_of_week` uses an ENUM of weekday names. Its primary key
+  remains `(vendor_id, hours_number)`, permitting multiple shifts on one day.
+- `Vendor.average_rating` and `review_count` are not stored. Queries calculate
+  these values from Review records.
+- Each imported author retains a distinct anonymous profile since they are not users of our app.
+  Reserved placeholder emails and disabled password markers distinguish imported
+  attribution records from accounts that can log in. Added demo accounts have
+  bcrypt password hashes. Login/reset restrictions belong in the application.
+- Every imported listing is attributed to the Dataset Importer profile.
+  Submitting a listing does not itself grant management permission.
+- Timestamps use UTC; recurring opening and closing times remain local times.
+  Coordinates are rounded to six decimal places for the implemented DECIMAL columns.
+- Six CHECK constraints enforce rating, price, coordinate, and operating-stop
+  time rules. The complete table definitions appear in Appendix A.
+
+## Table Schema and Row-Count Screenshots
+
+The following screenshots show the actual `DESC` output and row count for each
+of the 16 tables in the populated database. These counts match the smaller dataset
+summarized in Part 3.
+
+### User
+
+![User table structure and row count](./media/milestone2/user_schema_count.png){width=100% fig-pos="H"}
+
+### Vendor
+
+![Vendor table structure and row count](./media/milestone2/vendor_schema_count.png){width=100% fig-pos="H"}
+
+### Cuisine
+
+![Cuisine table structure and row count](./media/milestone2/cuisine_schema_count.png){width=100% fig-pos="H"}
+
+### Location
+
+![Location table structure and row count](./media/milestone2/location_schema_count.png){width=100% fig-pos="H"}
+
+### OperatingHours
+
+```{=latex}
+\begin{landscape}
+```
+
+![OperatingHours table structure and row count](./media/milestone2/operating_hours_schema_count.png){width=100% fig-pos="H"}
+
+```{=latex}
+\end{landscape}
+```
+
+### OperatingStop
+
+![OperatingStop table structure and row count](./media/milestone2/operating_stop_schema_count.png){width=100% fig-pos="H"}
+
+### MenuItem
+
+![MenuItem table structure and row count](./media/milestone2/menu_item_schema_count.png){width=100% fig-pos="H"}
+
+### Review
+
+![Review table structure and row count](./media/milestone2/review_schema_count.png){width=100% fig-pos="H"}
+
+### Photo
+
+![Photo table structure and row count](./media/milestone2/photo_schema_count.png){width=100% fig-pos="H"}
+
+### FoodPermit
+
+![FoodPermit table structure and row count](./media/milestone2/food_permit_schema_count.png){width=100% fig-pos="H"}
+
+### Manages
+
+![Manages table structure and row count](./media/milestone2/manages_schema_count.png){width=100% fig-pos="H"}
+
+### Favorites
+
+![Favorites table structure and row count](./media/milestone2/favorites_schema_count.png){width=100% fig-pos="H"}
+
+### VendorCuisine
+
+![VendorCuisine table structure and row count](./media/milestone2/vendor_cuisine_schema_count.png){width=100% fig-pos="H"}
+
+### VendorBase
+
+![VendorBase table structure and row count](./media/milestone2/vendor_base_schema_count.png){width=100% fig-pos="H"}
+
+### ReviewPhoto
+
+![ReviewPhoto table structure and row count](./media/milestone2/review_photo_schema_count.png){width=100% fig-pos="H"}
+
+### MenuItemPhoto
+
+![MenuItemPhoto table structure and row count](./media/milestone2/menu_item_photo_schema_count.png){width=100% fig-pos="H"}
+
+\newpage
+
+# Part 3: Dataset and Population
+
+## Sources and Preparation
+
+The proposal identified Yelp as a possible source. The implemented dataset
+instead uses UCSD's **Google Local Data (2021)**, specifically Virginia business
+metadata and the Virginia 10-core review file. Python was used to filter food
+businesses, match reviews by `gmap_id`, and split records into the relational
+tables. Distinct source user IDs preserve authorship relationships across reviews.
+Source JSON, prepared CSVs, and provenance records are retained in our repository.
+
+The final smaller dataset contains **25 real businesses and 3 fictional
+mobile/pop-up vendors**. The business subset is for development and demonstration and
+it is not a representative sample of all Virginia food vendors. Its imported
+business information is historical, not verified current operating information.
+
+The schema was populated in foreign-key order so that referenced users, vendors,
+and locations existed before their dependent rows. Original source identifiers
+are mapped to application integer IDs rather than being used as numeric keys.
+The smaller seed uses 16 multi-row INSERT statements, one for each table.
+
+## Real and Synthetic Data
+
+There are **105 real reviews** and **56 explicitly labeled demo reviews**. Real review wording
+and ratings are preserved. Imported author names are anonymized, and emails are
+placeholders because those profiles do not represent people registering for this app.
+
+Menu items, prices, permits, managers, favorites, and dated operating stops are
+synthetic demonstration records. Demo vendor names, menu names/descriptions,
+review text, photo captions, permit numbers, and authorities identify fictional
+content. Generic illustrative dish photos come from TheMealDB and do not show
+food supplied by the real businesses.
+
+Existing business details, locations, cuisine mappings, and weekly hours are
+retained where available. Missing schedules and contact details use documented
+demo placeholders. Unknown optional facts, such as actual times for future
+stops, permit documents, and original review-update times, remain NULL.
+FoodPermit rows beginning `DEMO-NOT-VALID` are not evidence of a genuine permit
+or vendor verification. Full synthetic-row and placeholder-field provenance is
+in `milestone2/small_seed/json/provenance.json`.
+
+## Row Counts and Practical Coverage
+
+The following counts were verified against the populated database and again
+after the rolled-back application-query tests.
+
+| Table | Rows |
+|---|---:|
+| User | 146 |
+| Vendor | 28 |
+| Cuisine | 14 |
+| Location | 25 |
+| OperatingHours | 185 |
+| OperatingStop | 112 |
+| MenuItem | 84 |
+| Review | 161 |
+| Photo | 241 |
+| FoodPermit | 28 |
+| Manages | 30 |
+| Favorites | 60 |
+| VendorCuisine | 35 |
+| VendorBase | 25 |
+| ReviewPhoto | 157 |
+| MenuItemPhoto | 84 |
+
+The dataset demonstrates one-to-many and many-to-many relationships rather than
+just isolated rows. Each retained vendor has three menu items and four dated
+stops. Twelve demo customers each have five favorites. Vendors can share cuisine
+labels, reviews connect to authors, and photos connect to both reviews and menu
+items through their relationship tables. Three fictional mobile vendors provide
+examples that do not require a permanent base location.
+
+This coverage supports testing the proposed searches, profiles, reviews, menu
+management, schedules, and saved vendors. It does not establish production scale
+or prove that the smaller dataset is adequate for every grading interpretation.
+Data sufficiency should be assessed against the application's scope and the
+relationship examples, rather than only whether tables are nonempty.
+
+The schema and row-count screenshots for every table are included in Part 2.
+The sample tables below contain excerpts from the prepared records used for the
+loaded dataset. They provide sample-data evidence separately from the screenshots.
+The commands in `milestone2/report_queries.sql` can retrieve additional samples.
+
+## Representative Records
+
+Long strings in the following sample tables are shortened for readability.
+The complete stored values are available in the CSV/JSON files and SQL seed.
+Passwords and password hashes are intentionally omitted from these sample tables.
+
+### User
+
+| user_id | display_name | joined_at |
+| --- | --- | --- |
+| 1 | Dataset Importer | 2026-10-23 03:43:11 |
+| 25 | Imported User 00024 | 2026-10-23 03:43:11 |
+
+### Vendor
+
+| vendor_id | name | vendor_type |
+| --- | --- | --- |
+| 1 | Adela's Deli | restaurant |
+| 2 | Maggios | restaurant |
+
+### Cuisine
+
+| cuisine_id | cuisine_name |
+| --- | --- |
+| 1 | Italian |
+| 2 | Brazilian |
+
+### Location
+
+| location_id | city | latitude | longitude |
+| --- | --- | --- | --- |
+| 1 | Williamsburg | 37.207971 | -76.610804 |
+| 2 | Alexandria | 38.794352 | -77.070114 |
+
+### OperatingHours
+
+| vendor_id | day_of_week | opening_time | closing_time |
+| --- | --- | --- | --- |
+| 1 | Monday | 11:00:00 | 20:00:00 |
+| 1 | Tuesday | 11:00:00 | 20:00:00 |
+
+### OperatingStop
+
+| stop_id | vendor_id | location_id | stop_status |
+| --- | --- | --- | --- |
+| 1 | 1 | 1 | demo_completed |
+| 2 | 1 | 1 | demo_completed |
+
+### MenuItem
+
+| menu_item_id | vendor_id | item_name | price |
+| --- | --- | --- | --- |
+| 1 | 1 | [DEMO] kofta burgers | 15.88 |
+| 2 | 1 | [DEMO] Pancakes | 21.42 |
+
+### Review
+
+| review_id | vendor_id | rating | review_text |
+| --- | --- | --- | --- |
+| 24 | 20 | 5 | Title says it all. Big selection of combo lunches for less than $5.00... |
+| 25 | 20 | 1 | Okay I totally love my regular place, but decided to check this one o... |
+
+### Photo
+
+| photo_id | vendor_id | uploader_user_id | caption |
+| --- | --- | --- | --- |
+| 4 | 20 | 26 | [IMPORTED] Source review photo; no caption supplied. |
+| 268 | 8 | 1511 | [IMPORTED] Source review photo; no caption supplied. |
+
+### FoodPermit
+
+| permit_id | vendor_id | permit_number |
+| --- | --- | --- |
+| 1 | 1 | DEMO-NOT-VALID-0001 |
+| 2 | 2 | DEMO-NOT-VALID-0002 |
+
+### Manages
+
+| user_id | vendor_id | management_role |
+| --- | --- | --- |
+| 13866 | 1 | demo_owner |
+| 13867 | 2 | demo_owner |
+
+### Favorites
+
+| user_id | vendor_id | saved_at |
+| --- | --- | --- |
+| 13947 | 7 | 2026-10-23 03:43:11 |
+| 13947 | 13 | 2026-10-23 03:43:11 |
+
+### VendorCuisine
+
+| vendor_id | cuisine_id |
+| --- | --- |
+| 1 | 24 |
+| 2 | 1 |
+
+### VendorBase
+
+| vendor_id | location_id |
+| --- | --- |
+| 1 | 1 |
+| 2 | 2 |
+
+### ReviewPhoto
+
+| photo_id | review_id |
+| --- | --- |
+| 4 | 25 |
+| 268 | 1597 |
+
+### MenuItemPhoto
+
+| photo_id | menu_item_id |
+| --- | --- |
+| 1541 | 1 |
+| 1542 | 2 |
+
+
+\newpage
+
+# Part 4: SQL Commands and Verification
+
+## Regular SQL Commands
+
+`milestone2/create_tables.sql` contains the 16 table definitions.
+`milestone2/small_seed/populate_small.sql` contains the smaller seed.
+`milestone2/all_app_queries.sql` contains the planned application operations.
+Appendix A includes the table definitions, Appendix B includes the app queries,
+and Appendix C includes the advanced SQL. The appendices read from the SQL files.
+
+The regular SQL covers the five required categories:
+
+| Category | Commands |
+|---|---|
+| Create tables | The 16 CREATE TABLE statements in Appendix A |
+| Retrieve data | Queries 1-24 |
+| Add data | Registration, vendor, location, menu, review, photo, favorite and permit inserts |
+| Update data | Profile, contact details, menu price, review, hours, stop and permit updates |
+| Delete data | Favorite, review, menu-item and photo deletions |
+
+A vendor listing is taken down by setting its status to `inactive`, preserving
+its associated reviews and other records.
+
+| Application action | Query numbers |
+|---|---|
+| Browse, search, filter, and sort | 1-7 |
+| Vendor details, cuisines, menus, photos, hours, stops, reviews, permits | 8-16 |
+| Favorites, user profiles/reviews, managed vendors, login lookup | 17-21 |
+| Owner review, profile, and operating-log exports | 22-24 |
+| Register/edit account, submit vendor, assign approved manager | 25-28 |
+| Add location/base, cuisine, and weekly hours | 29-31 |
+| Update stops, hours, menus, business details, reviews and photos | 32-36 |
+| Favorites, permits, review/menu deletion, listing removal, photo deletion | 37-42 |
+| Menu/schedule imports | Reuse 33 or 32 for validated rows in one transaction |
+
+Each group is labeled `Query 1`, `Query 2`, and so on. Retrieval queries use
+example values, such as vendor 1, rather than requiring an initial variable
+setup. After an INSERT, `LAST_INSERT_ID()` records the new ID so later statements
+can connect the new user, vendor, review, menu item and photo.
+
+In the application, example values become prepared-statement inputs. The acting
+user's ID comes from the authenticated login session.
+
+The write examples begin before Query 25 and end in ROLLBACK, so running that
+whole section does not retain its practice records. CSV/JSON
+parsing, export formatting, downloads and authentication belong to the later
+application layer. Owner exports use queries 22-24; saved-list and search exports
+reuse the retrieval queries. Imports reuse the appropriate menu or stop inserts.
+
+## Advanced SQL: CHECK Constraints
+
+The implemented checks are:
+
+| Table | Rule |
+|---|---|
+| Review | Rating is between 1 and 5 |
+| MenuItem | Price is nonnegative |
+| Location | Latitude is between -90 and 90 |
+| Location | Longitude is between -180 and 180 |
+| OperatingStop | Scheduled end is after scheduled start |
+| OperatingStop | Actual end is NULL, or actual start exists and precedes it |
+
+These CHECK constraints count as **one advanced SQL type**. Primary keys, foreign
+keys, NOT NULL, UNIQUE, and AUTO_INCREMENT are not counted as additional advanced types.
+
+## Advanced SQL: Triggers
+
+The second advanced type enforces the photo-vendor rule from Milestone 1.
+A photo attached to a review or menu item must belong to the same vendor as
+that review or item. Ordinary foreign keys confirm that each ID exists, but
+they do not compare the vendors of those records.
+
+For example, the following trigger rejects a review-photo link when the two
+records belong to different vendors:
+
+```sql
+CREATE TRIGGER check_reviewphoto_insert
+BEFORE INSERT ON ReviewPhoto
+FOR EACH ROW
+BEGIN
+    IF NOT EXISTS (
+        SELECT 1
+        FROM Photo p
+        JOIN Review r ON p.vendor_id = r.vendor_id
+        WHERE p.photo_id = NEW.photo_id
+          AND r.review_id = NEW.review_id
+    ) THEN
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Photo and Review must belong to the same vendor';
+    END IF;
+END;
+```
+
+The complete implementation also checks updates to both attachment tables.
+Additional guards prevent changing a Photo, Review, or MenuItem vendor when
+that would invalidate an existing photo link. Seven complementary triggers
+enforce this one business rule; they count as **one advanced SQL type**.
+Together with CHECK constraints, they provide the two different advanced types.
+Trigger definitions are in `milestone2/advanced_sql.sql`; test cases are in `milestone2/trigger_tests.sql`.
+
+## Recorded Tests
+
+The saved application-query tests completed against the remote database before
+the catalogue was simplified. The current file retains the same tested write
+operations, with shorter comments and new numbering. Those operations created
+practice records, updated them, removed dependent records, and ended in ROLLBACK.
+The retrieval section has since been split into simpler queries and needs a
+final run in its current form before submission. All 16 table counts
+matched the pre-test counts afterward. AUTO_INCREMENT counters can advance even
+when rows are rolled back; gaps in IDs do not mean the original data was deleted.
+
+Trigger tests accepted a same-vendor review-photo link and a same-vendor
+menu-item-photo link. Seven invalid operations were rejected with SQLSTATE
+`45000`: inserting or updating cross-vendor attachments, changing an attached
+photo's vendor, and changing an attached review or menu item's vendor.
+
+A separate recorded rating test confirmed that the rating CHECK rejects
+rating 6 with MySQL error 3819.
+
+| Test | Recorded outcome |
+|---|---|
+| Earlier app-query catalogue | Completed without MySQL errors |
+| Valid same-vendor review-photo attachment | Accepted, then rolled back |
+| Valid same-vendor menu-photo attachment | Accepted, then rolled back |
+| Seven cross-vendor attachment/vendor changes | Rejected with SQLSTATE 45000 |
+| Earlier app-query catalogue with triggers installed | Completed without MySQL errors |
+| Counts after all rolled-back tests | Unchanged for all 16 tables |
+| Earlier rating-6 CHECK test | Rejected with error 3819 |
+
+The original regular-query tests remain in
+`milestone2/query_tests/query_test_result.json`. The current trigger tests are
+recorded in `trigger_test_result.json` and `trigger_test_output.txt` in that
+folder. **Add screenshots showing accepted same-vendor links, rejected
+cross-vendor links, and the rating CHECK rejection before submission.**
+The schema and count screenshots are already included in Part 2.
+
+## Query Plan Observation
+
+An EXPLAIN was recorded for the query that joins Review to User for vendor 1.
+MySQL selected `ref` access using Review's `vendor_id` index, estimating two rows,
+and `eq_ref` access through User's primary key, estimating one matching user per
+review. These are optimizer estimates, not measured runtimes. The plan is stored
+in `milestone2/query_tests/query_explain_output.txt`. The small dataset does not
+support conclusions about production-scale performance.
+
+## Remaining Submission Work
+
+- Run the current simplified retrieval queries and add representative
+  application-query and advanced-SQL test screenshots.
+  Table schema/count screenshots and sample-data tables are already included.
+- Record and address any Milestone 1 grader feedback.
+- Review the synthetic-data explanation and dataset sufficiency justification.
+- Assemble the final SQL submission: schema, current smaller seed, advanced
+  definitions, and app queries. Do not include the larger alternative seed.
+- Export the actual database with triggers included and verify that the
+  final submission can be reconstructed in a separate database.
+- Render this source as PDF and inspect the layout before submitting.
+
+\newpage
+
+# Sources
+
+- UCSD McAuley Lab, *Google Local Data (2021)*. Virginia metadata and 10-core
+  review files. <https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/>
+- TheMealDB, illustrative meal-photo metadata and image URLs.
+  <https://www.themealdb.com/docs_api_guide.php>. Exact photo links and recipe
+  source pages are recorded in `milestone2/complete_data/json/photo_sources.json`.
+- CS4750 Fall 2026, *Milestone 2: DB setup and SQL*, assignment instructions
+  supplied with the project materials.
+
+\newpage
+
+# Appendix A: Table-Creation SQL
+
+The following is included from the current schema file.
+
+```{=latex}
+\VerbatimInput[fontsize=\scriptsize,breaklines=true,breakanywhere=true]{milestone2/create_tables.sql}
+```
+
+\newpage
+
+# Appendix B: Application SQL
+
+The examples include setup variables and a rolled-back write demonstration.
+The application will execute individual action-specific statements.
+
+```{=latex}
+\VerbatimInput[fontsize=\scriptsize,breaklines=true,breakanywhere=true]{milestone2/all_app_queries.sql}
+```
+
+\newpage
+
+# Appendix C: Advanced SQL and Tests
+
+```{=latex}
+\VerbatimInput[fontsize=\scriptsize,breaklines=true,breakanywhere=true]{milestone2/advanced_sql.sql}
+```

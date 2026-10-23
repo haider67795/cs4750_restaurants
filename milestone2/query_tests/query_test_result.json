@@ -1,0 +1,43 @@
+{
+  "backup": "C:\\Users\\haide\\OneDrive\\Documents\\ChatGPT\\CS4750\\tmp\\database_backups\\restaurants_before_query_tests_20261023T152311Z.sql",
+  "before": {
+    "Cuisine": 14,
+    "Favorites": 60,
+    "FoodPermit": 28,
+    "Location": 25,
+    "Manages": 30,
+    "MenuItem": 84,
+    "MenuItemPhoto": 84,
+    "OperatingHours": 185,
+    "OperatingStop": 112,
+    "Photo": 241,
+    "Review": 161,
+    "ReviewPhoto": 157,
+    "User": 146,
+    "Vendor": 28,
+    "VendorBase": 25,
+    "VendorCuisine": 35
+  },
+  "invalid_rating_rejected": "ERROR 3819 (HY000) at line 1: Check constraint 'chk_rating' is violated.",
+  "app_queries_passed": true,
+  "advanced_procedure_installed": true,
+  "success": true,
+  "after": {
+    "Cuisine": 14,
+    "Favorites": 60,
+    "FoodPermit": 28,
+    "Location": 25,
+    "Manages": 30,
+    "MenuItem": 84,
+    "MenuItemPhoto": 84,
+    "OperatingHours": 185,
+    "OperatingStop": 112,
+    "Photo": 241,
+    "Review": 161,
+    "ReviewPhoto": 157,
+    "User": 146,
+    "Vendor": 28,
+    "VendorBase": 25,
+    "VendorCuisine": 35
+  }
+}

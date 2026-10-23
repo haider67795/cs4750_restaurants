@@ -1,0 +1,85 @@
+menu_item_id,vendor_id,item_name,description,price,category,availability_status
+1,1,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,15.88,Demo burger,demo_available
+2,1,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,21.42,Demo breakfast,demo_available
+3,1,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,10.37,Demo dessert,demo_available
+4,2,[DEMO] Spicy Arrabiata Penne,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,12.03,Demo pasta,demo_available
+5,2,[DEMO] Cassava pizza,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,18.87,Demo pizza,demo_available
+6,2,[DEMO] New York cheesecake,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,14.25,Demo cake,demo_available
+7,3,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,10.34,Demo burger,demo_available
+8,3,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,12.22,Demo breakfast,demo_available
+9,3,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,21.76,Demo dessert,demo_available
+10,4,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,15.96,Demo burger,demo_available
+11,4,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,17.71,Demo breakfast,demo_available
+12,4,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,14.49,Demo dessert,demo_available
+13,5,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,17.19,Demo burger,demo_available
+14,5,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,12.13,Demo breakfast,demo_available
+15,5,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,19.16,Demo dessert,demo_available
+16,6,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,18.74,Demo burger,demo_available
+17,6,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,8.62,Demo breakfast,demo_available
+18,6,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,14.14,Demo dessert,demo_available
+19,7,[DEMO] Chicken Handi,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,9.29,Demo curry,demo_available
+20,7,[DEMO] Seafood rice,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,21.78,Demo rice,demo_available
+21,7,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,11.74,Demo dessert,demo_available
+22,8,[DEMO] Seafood rice,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,9.78,Demo rice,demo_available
+23,8,[DEMO] Beef pho,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,20.97,Demo beef,demo_available
+24,8,[DEMO] Papaya salad,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,18.28,Demo salad,demo_available
+25,9,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,20.97,Demo burger,demo_available
+26,9,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,18.91,Demo breakfast,demo_available
+27,9,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,8.19,Demo dessert,demo_available
+28,10,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,14.21,Demo burger,demo_available
+29,10,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,20.88,Demo breakfast,demo_available
+30,10,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,19.8,Demo dessert,demo_available
+31,11,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,10.36,Demo burger,demo_available
+32,11,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,8.05,Demo breakfast,demo_available
+33,11,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,7.64,Demo dessert,demo_available
+34,12,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,8.35,Demo burger,demo_available
+35,12,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,18.67,Demo breakfast,demo_available
+36,12,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,20.5,Demo dessert,demo_available
+37,13,[DEMO] Seafood rice,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,19.17,Demo rice,demo_available
+38,13,[DEMO] Beef pho,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,13.71,Demo beef,demo_available
+39,13,[DEMO] Papaya salad,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,17.53,Demo salad,demo_available
+40,14,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,15.49,Demo burger,demo_available
+41,14,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,13.01,Demo breakfast,demo_available
+42,14,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,11.89,Demo dessert,demo_available
+43,15,[DEMO] Seafood rice,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,8.85,Demo rice,demo_available
+44,15,[DEMO] Beef pho,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,18.09,Demo beef,demo_available
+45,15,[DEMO] Papaya salad,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,20.49,Demo salad,demo_available
+46,16,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,8.25,Demo burger,demo_available
+47,16,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,21.2,Demo breakfast,demo_available
+48,16,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,8.37,Demo dessert,demo_available
+49,17,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,20.26,Demo burger,demo_available
+50,17,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,10.89,Demo breakfast,demo_available
+51,17,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,21.15,Demo dessert,demo_available
+52,18,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,15.67,Demo burger,demo_available
+53,18,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,10.62,Demo breakfast,demo_available
+54,18,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,7.03,Demo dessert,demo_available
+55,19,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,19.28,Demo burger,demo_available
+56,19,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,19.69,Demo breakfast,demo_available
+57,19,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,21.14,Demo dessert,demo_available
+58,20,[DEMO] Seafood rice,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,13.65,Demo rice,demo_available
+59,20,[DEMO] Beef pho,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,20.19,Demo beef,demo_available
+60,20,[DEMO] Papaya salad,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,17.57,Demo salad,demo_available
+61,21,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,21.73,Demo burger,demo_available
+62,21,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,10.13,Demo breakfast,demo_available
+63,21,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,19.36,Demo dessert,demo_available
+64,22,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,9.09,Demo burger,demo_available
+65,22,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,16.23,Demo breakfast,demo_available
+66,22,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,16.79,Demo dessert,demo_available
+67,23,[DEMO] Spicy Arrabiata Penne,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,15.76,Demo pasta,demo_available
+68,23,[DEMO] Cassava pizza,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,8.38,Demo pizza,demo_available
+69,23,[DEMO] New York cheesecake,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,7.39,Demo cake,demo_available
+70,24,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,13.13,Demo burger,demo_available
+71,24,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,21.2,Demo breakfast,demo_available
+72,24,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,20.17,Demo dessert,demo_available
+73,25,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,18.32,Demo burger,demo_available
+74,25,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,13.73,Demo breakfast,demo_available
+75,25,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,11.62,Demo dessert,demo_available
+226,76,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,13.01,Demo burger,demo_available
+227,76,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,9.59,Demo breakfast,demo_available
+228,76,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,18.55,Demo dessert,demo_available
+229,77,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,15.52,Demo burger,demo_available
+230,77,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,18.88,Demo breakfast,demo_available
+231,77,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,12.14,Demo dessert,demo_available
+241,81,[DEMO] kofta burgers,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,10.24,Demo burger,demo_available
+242,81,[DEMO] Pancakes,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,9.85,Demo breakfast,demo_available
+243,81,[DEMO] Chocolate Raspberry Brownies,[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.,20.36,Demo dessert,demo_available

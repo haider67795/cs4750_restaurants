@@ -1,0 +1,7 @@
+Location	chk_latitude	(`latitude` between -(90) and 90)
+Location	chk_longitude	(`longitude` between -(180) and 180)
+OperatingStop	chk_sched_order	(`scheduled_end` > `scheduled_start`)
+OperatingStop	chk_actual_order	((`actual_end` is null) or ((`actual_start` is not null) and (`actual_end` > `actual_start`)))
+MenuItem	chk_price	(`price` >= 0)
+Review	chk_rating	(`rating` between 1 and 5)
+15220	13947	1	5	[DEMO] Stored procedure test

@@ -1,0 +1,778 @@
+{
+  "metadata_source": "C:\\Users\\haide\\Downloads\\meta-Virginia.json.gz",
+  "review_source": "C:\\Users\\haide\\Downloads\\review-Virginia_10.json.gz",
+  "seed": 4750,
+  "requested_businesses": 75,
+  "eligible_food_businesses": 22158,
+  "selected_businesses": 75,
+  "reviews_scanned": 8562059,
+  "reviews_saved": 15056,
+  "max_reviews_per_business": 0,
+  "selection_note": "Category-based random business sample; not all food categories may be covered. Review cap, if used, keeps source order, not a random review sample.",
+  "businesses": [
+    {
+      "gmap_id": "0x89b07d644865971f:0x3ce439ae6182b0f",
+      "name": "Adela's Deli",
+      "categories": [
+        "Restaurant"
+      ],
+      "review_count_saved": 0
+    },
+    {
+      "gmap_id": "0x89b7b1ba6de169a7:0x8033446008a45b97",
+      "name": "Maggios",
+      "categories": [
+        "Italian restaurant",
+        "Delivery Restaurant"
+      ],
+      "review_count_saved": 72
+    },
+    {
+      "gmap_id": "0x89b96849162b1d77:0x5c4c87669f172de4",
+      "name": "Mister Whippy 1991",
+      "categories": [
+        "Ice cream shop",
+        "Bakery",
+        "Coffee shop",
+        "Dessert shop"
+      ],
+      "review_count_saved": 401
+    },
+    {
+      "gmap_id": "0x884d64d753070a17:0x62e76bea44e320cd",
+      "name": "Kupkakery Bakery, Inc.",
+      "categories": [
+        "Bakery",
+        "Cake shop",
+        "Cupcake shop",
+        "Wedding bakery"
+      ],
+      "review_count_saved": 28
+    },
+    {
+      "gmap_id": "0x884d9542032059eb:0xc54fb69d0e3e0979",
+      "name": "Gaucho Brazilian Grille",
+      "categories": [
+        "Brazilian restaurant",
+        "Bar & grill",
+        "Family restaurant",
+        "Restaurant",
+        "Steak house"
+      ],
+      "review_count_saved": 148
+    },
+    {
+      "gmap_id": "0x89b108f3d9231913:0x81433868d8a2a3f1",
+      "name": "Logan's Roadhouse",
+      "categories": [
+        "American restaurant",
+        "Bar & grill",
+        "Barbecue restaurant",
+        "Chicken restaurant",
+        "Family restaurant",
+        "Hamburger restaurant",
+        "Restaurant",
+        "Southern restaurant (US)"
+      ],
+      "review_count_saved": 734
+    },
+    {
+      "gmap_id": "0x884d0d94e5ad1139:0xba63811910fe4dfd",
+      "name": "Nawab Indian Cuisine",
+      "categories": [
+        "Indian restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 325
+    },
+    {
+      "gmap_id": "0x89b66d7a133d476d:0xd090189c7f28eaf8",
+      "name": "Best Thai Kitchen",
+      "categories": [
+        "Thai restaurant"
+      ],
+      "review_count_saved": 54
+    },
+    {
+      "gmap_id": "0x89b7b5b533c012d5:0x37d9385c38f4189a",
+      "name": "Heidelberg Pastry Shoppe",
+      "categories": [
+        "Bakery"
+      ],
+      "review_count_saved": 492
+    },
+    {
+      "gmap_id": "0x89b387b2be02ddeb:0xd5c1019f394d0d23",
+      "name": "Little Star Restaurant",
+      "categories": [
+        "Restaurant"
+      ],
+      "review_count_saved": 46
+    },
+    {
+      "gmap_id": "0x89b64fc1f1ef6e77:0xcf9547b235fb2d8e",
+      "name": "Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!",
+      "categories": [
+        "Restaurant"
+      ],
+      "review_count_saved": 0
+    },
+    {
+      "gmap_id": "0x89ba833b11b1a7fd:0x58f5420157efe8a6",
+      "name": "BJ's Wholesale Club",
+      "categories": [
+        "Warehouse club",
+        "Bakery",
+        "Beer store",
+        "Deli",
+        "Electronics store",
+        "Eye care center",
+        "Gas station",
+        "Tire shop",
+        "Wholesale grocer",
+        "Wine store"
+      ],
+      "review_count_saved": 180
+    },
+    {
+      "gmap_id": "0x89b657c0c047e91b:0x63b87be4b1bf7e67",
+      "name": "Dok Khao Thai Eatery",
+      "categories": [
+        "Thai restaurant"
+      ],
+      "review_count_saved": 111
+    },
+    {
+      "gmap_id": "0x89b637d05397820d:0x7061979af241d83c",
+      "name": "Lake Anne Coffee House & Wine Bar",
+      "categories": [
+        "Restaurant",
+        "Coffee roasters",
+        "Wine bar"
+      ],
+      "review_count_saved": 219
+    },
+    {
+      "gmap_id": "0x89b64e93b2ab8d2f:0x961d2a481bb752ba",
+      "name": "EastWind Vietnamese Restaurant and Noodle House",
+      "categories": [
+        "Vietnamese restaurant",
+        "Asian restaurant",
+        "Southeast Asian restaurant",
+        "Vegetarian restaurant"
+      ],
+      "review_count_saved": 210
+    },
+    {
+      "gmap_id": "0x89ba82ce0563f5dd:0x9949deb890b70bb0",
+      "name": "Tommy's Restaurant",
+      "categories": [
+        "American restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 1821
+    },
+    {
+      "gmap_id": "0x89b387b6f893911b:0xe1f7ded5a8e77f09",
+      "name": "B.GOOD",
+      "categories": [
+        "Health food restaurant",
+        "Fast food restaurant"
+      ],
+      "review_count_saved": 58
+    },
+    {
+      "gmap_id": "0x89b0cad0b3e09041:0xc12bdc049b4da56f",
+      "name": "McDonald's",
+      "categories": [
+        "Fast food restaurant",
+        "Breakfast restaurant",
+        "Coffee shop",
+        "Hamburger restaurant",
+        "Restaurant",
+        "Sandwich shop"
+      ],
+      "review_count_saved": 439
+    },
+    {
+      "gmap_id": "0x89b64ea8a454352b:0xce46d9689d1c1c0d",
+      "name": "Freddy's Frozen Custard & Steakburgers",
+      "categories": [
+        "New American restaurant",
+        "Diner",
+        "Family restaurant",
+        "Fast food restaurant",
+        "Frozen dessert supplier",
+        "Hamburger restaurant",
+        "Ice cream shop",
+        "Soup restaurant"
+      ],
+      "review_count_saved": 1255
+    },
+    {
+      "gmap_id": "0x89ba84cf78874fad:0x1eb514968033617f",
+      "name": "Golden City Restaurant",
+      "categories": [
+        "Chinese restaurant",
+        "Asian restaurant",
+        "Delivery Restaurant",
+        "Takeout Restaurant"
+      ],
+      "review_count_saved": 24
+    },
+    {
+      "gmap_id": "0x89b6660e1cfc9493:0x42cf790fdb4d9da3",
+      "name": "Papa John's Pizza",
+      "categories": [
+        "Pizza restaurant"
+      ],
+      "review_count_saved": 30
+    },
+    {
+      "gmap_id": "0x89b64e61a47eabfd:0x60b872d70dd469fa",
+      "name": "Southside Dining Hall",
+      "categories": [
+        "Diner"
+      ],
+      "review_count_saved": 157
+    },
+    {
+      "gmap_id": "0x89b387b67b0be863:0x161bc636985ddab7",
+      "name": "Ruby Tuesday",
+      "categories": [
+        "American restaurant",
+        "Bar",
+        "European restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 0
+    },
+    {
+      "gmap_id": "0x89b078a879d8756d:0xb1dc88cdf4529060",
+      "name": "County Grill & Smokehouse",
+      "categories": [
+        "Barbecue restaurant",
+        "American restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 1266
+    },
+    {
+      "gmap_id": "0x89b657aa51895555:0x51058edabc287a7c",
+      "name": "GloryBe Cakes",
+      "categories": [
+        "Bakery"
+      ],
+      "review_count_saved": 0
+    },
+    {
+      "gmap_id": "0x885b2277558f6105:0x2e41f74347139d42",
+      "name": "Rooster's Pub",
+      "categories": [
+        "Pub",
+        "Restaurant"
+      ],
+      "review_count_saved": 109
+    },
+    {
+      "gmap_id": "0x89b492e51cf6c477:0xb7512d46b8b52514",
+      "name": "Subway",
+      "categories": [
+        "Sandwich shop",
+        "Caterer",
+        "Fast food restaurant",
+        "Takeout Restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 70
+    },
+    {
+      "gmap_id": "0x89babe337b83dbfd:0x617295ba0ca9c333",
+      "name": "Rainbow Garden",
+      "categories": [
+        "Chinese restaurant",
+        "Asian restaurant",
+        "Delivery Restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 97
+    },
+    {
+      "gmap_id": "0x89b6c0f41109da2b:0x124e39534547be57",
+      "name": "Tokyo Express III",
+      "categories": [
+        "Chinese restaurant",
+        "Delivery Restaurant"
+      ],
+      "review_count_saved": 40
+    },
+    {
+      "gmap_id": "0x89b7b7cac82801d3:0xd40420f6dc46c1de",
+      "name": "Compass Coffee",
+      "categories": [
+        "Cafe"
+      ],
+      "review_count_saved": 133
+    },
+    {
+      "gmap_id": "0x89b7b5b52e37d815:0xa0784f71092d104e",
+      "name": "KFC",
+      "categories": [
+        "Chicken restaurant",
+        "Fast food restaurant"
+      ],
+      "review_count_saved": 152
+    },
+    {
+      "gmap_id": "0x89b64b4903b1f471:0xca7ed3ab76bef35a",
+      "name": "Starbucks",
+      "categories": [
+        "Cafe"
+      ],
+      "review_count_saved": 11
+    },
+    {
+      "gmap_id": "0x884d0c252e419b25:0xd3587f888d91e5cf",
+      "name": "K & J's Cafe",
+      "categories": [
+        "Cafe"
+      ],
+      "review_count_saved": 24
+    },
+    {
+      "gmap_id": "0x89b7b5027e3f8113:0xe019c4bda8e91a5b",
+      "name": "Backyard Barbeque",
+      "categories": [
+        "Barbecue restaurant"
+      ],
+      "review_count_saved": 23
+    },
+    {
+      "gmap_id": "0x89baa1e18e990001:0x734472f1ebe50a0d",
+      "name": "Redwood Smoke Shack Texas Inspired BBQ",
+      "categories": [
+        "Barbecue restaurant",
+        "BBQ area",
+        "Restaurant"
+      ],
+      "review_count_saved": 328
+    },
+    {
+      "gmap_id": "0x152fa3f35230b661:0x904c6e48089b7b67",
+      "name": "Blue Hills Market",
+      "categories": [
+        "Health food store",
+        "Health consultant",
+        "Herb shop",
+        "Juice shop",
+        "Natural goods store",
+        "Produce market",
+        "Vitamin & supplements store"
+      ],
+      "review_count_saved": 0
+    },
+    {
+      "gmap_id": "0x89b64bc7d312d0cd:0xf8307dda4c8666dd",
+      "name": "Pho N More",
+      "categories": [
+        "Southeast Asian restaurant",
+        "Asian restaurant",
+        "Restaurant",
+        "Vietnamese restaurant"
+      ],
+      "review_count_saved": 0
+    },
+    {
+      "gmap_id": "0x884ceb8b002e1a73:0x9d1a50cc5e3a42d2",
+      "name": "The TinyItalian Bakery",
+      "categories": [
+        "Cafe"
+      ],
+      "review_count_saved": 0
+    },
+    {
+      "gmap_id": "0x884d0b56b1cd1af5:0x8420cba7acf2a372",
+      "name": "G Market Indian-Asian Foods",
+      "categories": [
+        "Grocery store",
+        "Asian grocery store",
+        "Deli",
+        "Indian grocery store"
+      ],
+      "review_count_saved": 43
+    },
+    {
+      "gmap_id": "0x89baeaa6e6abad07:0x78285469d5e3ac1",
+      "name": "Sarku Japan",
+      "categories": [
+        "Japanese restaurant",
+        "Asian restaurant",
+        "Fast food restaurant",
+        "Restaurant",
+        "Sushi restaurant",
+        "Teppanyaki restaurant"
+      ],
+      "review_count_saved": 68
+    },
+    {
+      "gmap_id": "0x89b5c3ebad596913:0xe94cc8d48651e9e8",
+      "name": "Houlihan's",
+      "categories": [
+        "American restaurant",
+        "Bar",
+        "Bar & grill",
+        "Restaurant"
+      ],
+      "review_count_saved": 85
+    },
+    {
+      "gmap_id": "0x89ba95a658578067:0x43e0130b8b5eff87",
+      "name": "Mangia Qui Italian Bistro",
+      "categories": [
+        "Italian restaurant"
+      ],
+      "review_count_saved": 195
+    },
+    {
+      "gmap_id": "0x89b7b14fcf99226f:0x3cba2fb165503dc4",
+      "name": "Subway",
+      "categories": [
+        "Sandwich shop",
+        "Caterer",
+        "Fast food restaurant",
+        "Takeout Restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 36
+    },
+    {
+      "gmap_id": "0x89b44de1dee438a7:0xece4df494510101a",
+      "name": "Moonshadows Restaurant",
+      "categories": [
+        "American restaurant"
+      ],
+      "review_count_saved": 166
+    },
+    {
+      "gmap_id": "0x89b63d4c9144e181:0xa0c06cde82bebae3",
+      "name": "Wild Wood Pizza",
+      "categories": [
+        "Pizza restaurant"
+      ],
+      "review_count_saved": 31
+    },
+    {
+      "gmap_id": "0x884d09127f04c837:0x1a739869fe8bd2f8",
+      "name": "Subway",
+      "categories": [
+        "Sandwich shop",
+        "Caterer",
+        "Fast food restaurant",
+        "Takeout Restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 62
+    },
+    {
+      "gmap_id": "0x89b6c1b5ddce8d71:0x79eb02fd9a1d788b",
+      "name": "Joe's Crab Shack",
+      "categories": [
+        "Seafood restaurant",
+        "Family restaurant"
+      ],
+      "review_count_saved": 625
+    },
+    {
+      "gmap_id": "0x89b656008d090061:0x25a0c1116427e8be",
+      "name": "P.F. Chang's",
+      "categories": [
+        "Chinese restaurant",
+        "Asian restaurant",
+        "Dim sum restaurant",
+        "Takeout Restaurant",
+        "Sushi restaurant"
+      ],
+      "review_count_saved": 532
+    },
+    {
+      "gmap_id": "0x885ac8db0aad9f8d:0xe066ab761ed556ee",
+      "name": "Romano's Restaurant",
+      "categories": [
+        "Italian restaurant",
+        "Caterer",
+        "Gluten-free restaurant",
+        "Takeout Restaurant",
+        "Pizza restaurant",
+        "Pizza Takeout"
+      ],
+      "review_count_saved": 160
+    },
+    {
+      "gmap_id": "0x89b6670307a92c1f:0x754dd1c5b22950c5",
+      "name": "Don Chato's Delicias",
+      "categories": [
+        "Mexican restaurant"
+      ],
+      "review_count_saved": 37
+    },
+    {
+      "gmap_id": "0x89b6096ca827d137:0xa67731281df76a0f",
+      "name": "The Village Market",
+      "categories": [
+        "Pizza restaurant",
+        "Deli"
+      ],
+      "review_count_saved": 24
+    },
+    {
+      "gmap_id": "0x89b07eae3e2b6835:0x157334086061cf34",
+      "name": "Mr. Gyros & Burgers",
+      "categories": [
+        "Greek restaurant",
+        "Fast food restaurant"
+      ],
+      "review_count_saved": 479
+    },
+    {
+      "gmap_id": "0x89b11a6611789835:0xbf78715bff2f2608",
+      "name": "Bubba's Bar & Grill",
+      "categories": [
+        "Bar & grill"
+      ],
+      "review_count_saved": 196
+    },
+    {
+      "gmap_id": "0x89b10826976f8cf7:0x56f3e38e362edd4c",
+      "name": "Excel Chinese Restaurant",
+      "categories": [
+        "Chinese restaurant",
+        "Delivery Restaurant"
+      ],
+      "review_count_saved": 70
+    },
+    {
+      "gmap_id": "0x89b7ad5f02af48c5:0x5f272901b3b3628d",
+      "name": "Zinburger Wine & Burger Bar",
+      "categories": [
+        "Hamburger restaurant",
+        "American restaurant",
+        "Wine bar"
+      ],
+      "review_count_saved": 449
+    },
+    {
+      "gmap_id": "0x89b6774575110275:0x2b677feed46731a4",
+      "name": "Subway",
+      "categories": [
+        "Sandwich shop",
+        "Caterer",
+        "Fast food restaurant",
+        "Takeout Restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 53
+    },
+    {
+      "gmap_id": "0x89ba95a8624cdb31:0x31448bd60ee441d3",
+      "name": "Cal'z Pizza",
+      "categories": [
+        "Pizza restaurant",
+        "American restaurant",
+        "Delivery Restaurant"
+      ],
+      "review_count_saved": 108
+    },
+    {
+      "gmap_id": "0x89babdd8d98ce889:0xaa7b1dda3fc93eaa",
+      "name": "Noodle Man",
+      "categories": [
+        "Restaurant"
+      ],
+      "review_count_saved": 80
+    },
+    {
+      "gmap_id": "0x89b7198023791043:0xc7c1a345a47e352e",
+      "name": "Jersey Mike's Subs",
+      "categories": [
+        "Sandwich shop",
+        "Caterer",
+        "Deli",
+        "Fast food restaurant",
+        "Takeout Restaurant"
+      ],
+      "review_count_saved": 126
+    },
+    {
+      "gmap_id": "0x89b1114f21993331:0x9f8aee0d31dc4ad1",
+      "name": "No Limits Nutrition Center",
+      "categories": [
+        "Sports nutrition store",
+        "Health food store",
+        "Restaurant"
+      ],
+      "review_count_saved": 0
+    },
+    {
+      "gmap_id": "0x89b6560543c31581:0x7edccd5bec3bceea",
+      "name": "Bonchon Chicken Woodbridge",
+      "categories": [
+        "Asian fusion restaurant",
+        "Asian restaurant",
+        "Chicken restaurant",
+        "Chicken wings restaurant",
+        "Fried chicken takeaway",
+        "Japanese restaurant",
+        "Korean restaurant",
+        "Pan-Asian restaurant"
+      ],
+      "review_count_saved": 330
+    },
+    {
+      "gmap_id": "0x89b387c2af11d44b:0x6b3fb19fadf014ea",
+      "name": "CAVA",
+      "categories": [
+        "Mediterranean restaurant"
+      ],
+      "review_count_saved": 249
+    },
+    {
+      "gmap_id": "0x89b7b1327115bccb:0x926e3384b235156c",
+      "name": "Starbucks",
+      "categories": [
+        "Coffee shop",
+        "Breakfast restaurant",
+        "Cafe",
+        "Coffee store",
+        "Espresso bar",
+        "Internet cafe"
+      ],
+      "review_count_saved": 94
+    },
+    {
+      "gmap_id": "0x89b11bb8257f7b55:0x8397070d1cce460",
+      "name": "The Vault Restaurant",
+      "categories": [
+        "American restaurant"
+      ],
+      "review_count_saved": 118
+    },
+    {
+      "gmap_id": "0x89b0787ac015f2cd:0x3fc60fb26db0b27f",
+      "name": "Anderson's Newport News",
+      "categories": [
+        "Garden center",
+        "Boutique",
+        "Cafe",
+        "Greenhouse",
+        "Plant nursery",
+        "Restaurant"
+      ],
+      "review_count_saved": 230
+    },
+    {
+      "gmap_id": "0x89ba2b71d7907165:0x1f9f006ca50f3c68",
+      "name": "Onancock General Store",
+      "categories": [
+        "Restaurant or cafe",
+        "Food and drink"
+      ],
+      "review_count_saved": 0
+    },
+    {
+      "gmap_id": "0x89b64ae62469bec1:0xf821f54d254809f8",
+      "name": "La Sandia",
+      "categories": [
+        "Mexican restaurant",
+        "Bar",
+        "Latin American restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 379
+    },
+    {
+      "gmap_id": "0x89b64df0db78619d:0xe04ebe17f7e86ea5",
+      "name": "Spartans Family Restaurant",
+      "categories": [
+        "Family restaurant",
+        "American restaurant",
+        "Breakfast restaurant",
+        "Greek restaurant",
+        "Pizza restaurant"
+      ],
+      "review_count_saved": 378
+    },
+    {
+      "gmap_id": "0x88529c17f4f122ed:0x53e000b384bc61ad",
+      "name": "Meemaws Country Kitchen & Grille",
+      "categories": [
+        "American restaurant"
+      ],
+      "review_count_saved": 56
+    },
+    {
+      "gmap_id": "0x89ba99f0370c71db:0xfc81eaaa5cff11f7",
+      "name": "Auntie's Norfolk",
+      "categories": [
+        "Bar & grill",
+        "Restaurant"
+      ],
+      "review_count_saved": 35
+    },
+    {
+      "gmap_id": "0x89b07fdad4dc0c61:0x35b3e488a538b379",
+      "name": "Starbucks",
+      "categories": [
+        "Coffee shop",
+        "Breakfast restaurant",
+        "Cafe",
+        "Coffee store",
+        "Espresso bar",
+        "Internet cafe"
+      ],
+      "review_count_saved": 254
+    },
+    {
+      "gmap_id": "0x885ae76bc63a6f1f:0xc42a5b67c62a3be6",
+      "name": "Redstone Restaurant",
+      "categories": [
+        "American restaurant",
+        "Dessert shop",
+        "Fast food restaurant",
+        "Hamburger restaurant",
+        "Ice cream shop",
+        "Restaurant"
+      ],
+      "review_count_saved": 16
+    },
+    {
+      "gmap_id": "0x89b7b3aeb3d168ab:0x11fdc63793c58ae0",
+      "name": "Time Ethiopan cafe and market",
+      "categories": [
+        "Ethiopian restaurant",
+        "Eritrean restaurant"
+      ],
+      "review_count_saved": 38
+    },
+    {
+      "gmap_id": "0x89b7b0d6df07eca5:0xd458d207e9034262",
+      "name": "Subway",
+      "categories": [
+        "Sandwich shop",
+        "Caterer",
+        "Fast food restaurant",
+        "Takeout Restaurant",
+        "Restaurant"
+      ],
+      "review_count_saved": 26
+    },
+    {
+      "gmap_id": "0x89baeca3b62f9b39:0x23203d044508b484",
+      "name": "Surf Rider Grill",
+      "categories": [
+        "Restaurant",
+        "Grill"
+      ],
+      "review_count_saved": 171
+    }
+  ]
+}

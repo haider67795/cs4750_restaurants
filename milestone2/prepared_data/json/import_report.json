@@ -1,0 +1,51 @@
+{
+  "import_time_utc": "2026-10-23 03:43:11",
+  "rows_per_table": {
+    "User": 13865,
+    "Vendor": 75,
+    "Cuisine": 23,
+    "Location": 75,
+    "OperatingHours": 454,
+    "Review": 15056,
+    "Photo": 1540,
+    "VendorCuisine": 55,
+    "VendorBase": 75,
+    "ReviewPhoto": 1540,
+    "OperatingStop": 0,
+    "MenuItem": 0,
+    "FoodPermit": 0,
+    "Manages": 0,
+    "Favorites": 0,
+    "MenuItemPhoto": 0
+  },
+  "source_counts": {
+    "source_reviews": 15056,
+    "rating_only_reviews_with_empty_text": 6064
+  },
+  "issue_counts": {
+    "inferred_hours_meridiem": 63
+  },
+  "empty_tables": [
+    "OperatingStop",
+    "MenuItem",
+    "FoodPermit",
+    "Manages",
+    "Favorites",
+    "MenuItemPhoto"
+  ],
+  "assumptions": [
+    "Explicit sequential IDs starting at 1; target tables must be empty. Not a repeatable/upsert database import.",
+    "Anonymous profiles preserve distinct source authors; emails are placeholders. Password fields contain deliberately invalid disabled markers, not usable password hashes. App must reject login and reset for these accounts.",
+    "User joined_at and vendor created_at are import timestamps, not historical registration dates.",
+    "All datetimes are UTC; Virginia vendors use America/New_York for local operating hours.",
+    "day_of_week uses Monday=1 through Sunday=7. Existing table definitions must accept this convention.",
+    "Vendor types: restaurant, caterer, food_truck. Listing status: imported or inactive. Check your table constraints before executing SQL.",
+    "Google Maps URLs are not vendor websites; website_url and phone_number remain NULL.",
+    "Cuisine tags use a conservative explicit category mapping; broad categories and dietary/service labels are not cuisines.",
+    "Null review text is stored as empty text; rating-only reviews are retained.",
+    "Photo uploaded_at uses its review timestamp as a proxy; actual photo upload time is not supplied. Photo URLs were not checked for availability.",
+    "Closed days have no hours rows. Open 24 hours becomes two adjacent 12-hour intervals. Missing AM/PM is inferred using the shortest positive interval and logged.",
+    "No menus, permits, ownership, favorites, dated stops or dish/photo associations are invented. Business responses are not mapped because the schema has no corresponding table.",
+    "CSV is for inspection; SQL/JSONL preserve NULL distinctly from empty text. Original JSONL retains unmapped source fields."
+  ]
+}

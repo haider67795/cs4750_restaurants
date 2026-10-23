@@ -1,0 +1,98 @@
+{
+  "pasta": {
+    "dish": "Spicy Arrabiata Penne",
+    "image_url": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
+    "source_page": "https://www.themealdb.com/meal/52771",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "pizza": {
+    "dish": "Cassava pizza",
+    "image_url": "https://www.themealdb.com/images/media/meals/lrfdwz1764438393.jpg",
+    "source_page": "https://www.themealdb.com/meal/53330",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=pizza",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "burger": {
+    "dish": "kofta burgers",
+    "image_url": "https://www.themealdb.com/images/media/meals/lgmnff1763789847.jpg",
+    "source_page": "https://www.themealdb.com/meal/53257",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=burger",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "curry": {
+    "dish": "Chicken Handi",
+    "image_url": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
+    "source_page": "https://www.themealdb.com/meal/52795",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=Chicken+Handi",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "rice": {
+    "dish": "Seafood rice",
+    "image_url": "https://www.themealdb.com/images/media/meals/5r5rvx1763287943.jpg",
+    "source_page": "https://www.themealdb.com/meal/53167",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=rice",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "salad": {
+    "dish": "Papaya salad",
+    "image_url": "https://www.themealdb.com/images/media/meals/7ytdtz1784833420.jpg",
+    "source_page": "https://www.themealdb.com/meal/53573",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=salad",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "dessert": {
+    "dish": "Chocolate Raspberry Brownies",
+    "image_url": "https://www.themealdb.com/images/media/meals/yypvst1511386427.jpg",
+    "source_page": "https://www.themealdb.com/meal/52860",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=brownies",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "breakfast": {
+    "dish": "Pancakes",
+    "image_url": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
+    "source_page": "https://www.themealdb.com/meal/52854",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=pancakes",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "fish": {
+    "dish": "Fish pie",
+    "image_url": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg",
+    "source_page": "https://www.themealdb.com/meal/52802",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=fish",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "soup": {
+    "dish": "Leblebi Soup",
+    "image_url": "https://www.themealdb.com/images/media/meals/x2fw9e1560460636.jpg",
+    "source_page": "https://www.themealdb.com/meal/52973",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=soup",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "beef": {
+    "dish": "Beef pho",
+    "image_url": "https://www.themealdb.com/images/media/meals/pbzcrx1763765096.jpg",
+    "source_page": "https://www.themealdb.com/meal/53238",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=beef",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  },
+  "cake": {
+    "dish": "New York cheesecake",
+    "image_url": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg",
+    "source_page": "https://www.themealdb.com/meal/52858",
+    "metadata_endpoint": "https://www.themealdb.com/api/json/v1/1/search.php?s=cheesecake",
+    "checked_http_status": 200,
+    "purpose": "Illustrative demo menu photo; not a photo from the real vendor."
+  }
+}

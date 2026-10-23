@@ -1,0 +1,81 @@
+4	Kupkakery Bakery, Inc.	restaurant	imported	Rocky Mount	VA	37.000533	-79.892812	4.86	7
+7	Nawab Indian Cuisine	restaurant	imported	Roanoke	VA	37.271900	-79.938283	4.86	7
+10	Little Star Restaurant	restaurant	imported	Charlottesville	VA	38.030632	-78.487559	4.86	7
+19	Freddy's Frozen Custard & Steakburgers	restaurant	imported	Fairfax	VA	38.863266	-77.291291	4.86	7
+13	Dok Khao Thai Eatery	restaurant	imported	Woodbridge	VA	38.627393	-77.287424	4.71	7
+3	Mister Whippy 1991	restaurant	imported	Chincoteague	VA	37.935984	-75.368516	4.57	7
+5	Gaucho Brazilian Grille	restaurant	imported	Blacksburg	VA	37.235601	-80.433225	4.57	7
+8	Best Thai Kitchen	restaurant	imported	Middleburg	VA	38.968508	-77.734684	4.57	7
+9	Heidelberg Pastry Shoppe	restaurant	imported	Arlington	VA	38.896111	-77.127500	4.57	7
+1	Adela's Deli	restaurant	imported	Williamsburg	VA	37.207971	-76.610804	4.50	2
+25	GloryBe Cakes	restaurant	imported	Woodbridge	VA	38.669674	-77.335920	4.50	2
+76	[DEMO] Virginia Mobile Kitchen 1	food_truck	demo	NULL	NULL	NULL	NULL	4.50	2
+14	Lake Anne Coffee House & Wine Bar	restaurant	imported	Reston	VA	38.968817	-77.341292	4.43	7
+16	Tommy's Restaurant	restaurant	imported	Hampton	VA	37.030917	-76.422372	4.43	7
+22	Southside Dining Hall	restaurant	imported	Fairfax	VA	38.831307	-77.305568	4.29	7
+15	EastWind Vietnamese Restaurant and Noodle House	restaurant	imported	Fairfax	VA	38.846225	-77.305966	4.14	7
+17	B.GOOD	restaurant	inactive	Charlottesville	VA	38.054626	-78.499940	4.14	7
+24	County Grill & Smokehouse	restaurant	imported	Yorktown	VA	37.102537	-76.458805	4.14	7
+2	Maggios	restaurant	imported	Alexandria	VA	38.794352	-77.070114	4.00	7
+11	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	restaurant	imported	Fairfax	VA	38.862748	-77.354124	4.00	2
+1	Adela's Deli	[DEMO PLACEHOLDER] Profile description not supplied by source.	restaurant	+1-202-555-0101	https://vendor-001.example.invalid	imported	2026-10-23 03:43:11	America/New_York	1	Adela's Deli	8934 Pocahontas Trail	Williamsburg	VA	23185	37.207971	-76.610804	4.50	2
+24	Unspecified
+2	[DEMO] Pancakes	[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.	21.42	Demo breakfast	demo_available
+1	[DEMO] kofta burgers	[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.	15.88	Demo burger	demo_available
+3	[DEMO] Chocolate Raspberry Brownies	[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.	10.37	Demo dessert	demo_available
+1	1541	https://www.themealdb.com/images/media/meals/lgmnff1763789847.jpg	[DEMO] Illustrative kofta burgers photo (TheMealDB); not this vendor's dish.
+2	1542	https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg	[DEMO] Illustrative Pancakes photo (TheMealDB); not this vendor's dish.
+3	1543	https://www.themealdb.com/images/media/meals/yypvst1511386427.jpg	[DEMO] Illustrative Chocolate Raspberry Brownies photo (TheMealDB); not this vendor's dish.
+1	Monday	11:00:00	20:00:00
+2	Tuesday	11:00:00	20:00:00
+3	Wednesday	11:00:00	20:00:00
+4	Thursday	11:00:00	20:00:00
+5	Friday	11:00:00	20:00:00
+6	Saturday	11:00:00	20:00:00
+7	Sunday	11:00:00	20:00:00
+3	1	1	2026-10-23 15:00:00	2026-10-23 19:00:00	NULL	NULL	demo_scheduled	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.	Adela's Deli	8934 Pocahontas Trail	Williamsburg	37.207971	-76.610804
+4	1	1	2026-10-24 15:00:00	2026-10-24 19:00:00	NULL	NULL	demo_scheduled	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.	Adela's Deli	8934 Pocahontas Trail	Williamsburg	37.207971	-76.610804
+15058	5	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11	NULL	13949	Demo Customer 003
+15057	4	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11	NULL	13948	Demo Customer 002
+15057	1544	https://www.themealdb.com/images/media/meals/lgmnff1763789847.jpg	[DEMO] Generic illustrative food photo; not taken by a real customer.
+DEMO-NOT-VALID-0001	DEMO AUTHORITY - NOT A REAL PERMIT	demo_food_service	2026-10-23	2027-10-23	NULL
+7	Nawab Indian Cuisine	restaurant	2026-10-23 03:43:11
+13	Dok Khao Thai Eatery	restaurant	2026-10-23 03:43:11
+24	County Grill & Smokehouse	restaurant	2026-10-23 03:43:11
+76	[DEMO] Virginia Mobile Kitchen 1	food_truck	2026-10-23 03:43:11
+81	[DEMO] Virginia Mobile Kitchen 6	pop_up	2026-10-23 03:43:11
+15078	11	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	3	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11	NULL
+15079	12	BJ's Wholesale Club	3	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11	NULL
+15102	23	Ruby Tuesday	3	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11	NULL
+15103	24	County Grill & Smokehouse	3	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11	NULL
+13947	Demo Customer 001	demo.customer.001@example.invalid	2026-10-23 03:43:11
+1	Adela's Deli	demo_owner	2026-10-23 03:43:11
+13947	Demo Customer 001	$2y$10$7dvUqCBkly5UYpE7FXfasOytR14L.xF9AADrR5dnDn7V3lhYU2pRq
+15057	4	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11	NULL
+15058	5	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11	NULL
+1	Adela's Deli	[DEMO PLACEHOLDER] Profile description not supplied by source.	restaurant	+1-202-555-0101	https://vendor-001.example.invalid	imported	2026-10-23 03:43:11	America/New_York	1
+1	1	1	2026-10-21 15:00:00	2026-10-21 19:00:00	2026-10-21 15:05:00	2026-10-21 18:55:00	demo_completed	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+2	1	1	2026-10-22 15:00:00	2026-10-22 19:00:00	2026-10-22 15:05:00	2026-10-22 18:55:00	demo_completed	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+3	1	1	2026-10-23 15:00:00	2026-10-23 19:00:00	NULL	NULL	demo_scheduled	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+4	1	1	2026-10-24 15:00:00	2026-10-24 19:00:00	NULL	NULL	demo_scheduled	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+10	Little Star Restaurant	current_scheduled_stop	10	Little Star Restaurant	38.030632	-78.487559	0.9643720783782973
+10	Little Star Restaurant	base	10	Little Star Restaurant	38.030632	-78.487559	0.9643720783782973
+23	Ruby Tuesday	current_scheduled_stop	23	Ruby Tuesday	38.051222	-78.501524	3.266981796560072
+23	Ruby Tuesday	base	23	Ruby Tuesday	38.051222	-78.501524	3.266981796560072
+17	B.GOOD	current_scheduled_stop	17	B.GOOD	38.054626	-78.499940	3.4751439527038883
+17	B.GOOD	base	17	B.GOOD	38.054626	-78.499940	3.4751439527038883
+21	Papa John's Pizza	current_scheduled_stop	21	Papa John's Pizza	38.814129	-77.642583	113.55821964746127
+21	Papa John's Pizza	base	21	Papa John's Pizza	38.814129	-77.642583	113.55821964746127
+6	Logan's Roadhouse	current_scheduled_stop	6	Logan's Roadhouse	37.354073	-77.408060	120.32533726284011
+6	Logan's Roadhouse	base	6	Logan's Roadhouse	37.354073	-77.408060	120.32533726284011
+25	GloryBe Cakes	current_scheduled_stop	25	GloryBe Cakes	38.669674	-77.335920	122.3345275963209
+25	GloryBe Cakes	base	25	GloryBe Cakes	38.669674	-77.335920	122.3345275963209
+8	Best Thai Kitchen	current_scheduled_stop	8	Best Thai Kitchen	38.968508	-77.734684	122.78298899775587
+8	Best Thai Kitchen	base	8	Best Thai Kitchen	38.968508	-77.734684	122.78298899775587
+81	[DEMO] Virginia Mobile Kitchen 6	current_scheduled_stop	8	Best Thai Kitchen	38.968508	-77.734684	122.78298899775587
+13	Dok Khao Thai Eatery	current_scheduled_stop	13	Dok Khao Thai Eatery	38.627393	-77.287424	123.22276741896624
+13	Dok Khao Thai Eatery	base	13	Dok Khao Thai Eatery	38.627393	-77.287424	123.22276741896624
+11	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	current_scheduled_stop	11	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	38.862748	-77.354124	134.70338204387897
+11	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	base	11	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	38.862748	-77.354124	134.70338204387897
+22	Southside Dining Hall	base	22	Southside Dining Hall	38.831307	-77.305568	135.49315045411424
+Write examples rolled back; original application data is unchanged.

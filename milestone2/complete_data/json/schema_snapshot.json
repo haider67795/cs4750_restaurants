@@ -1,0 +1,1465 @@
+{
+  "database": "restaurants",
+  "schema": [
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "auto_increment",
+      "table": "Cuisine",
+      "column": "cuisine_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(100)",
+      "extra": "",
+      "table": "Cuisine",
+      "column": "cuisine_name",
+      "length": 100,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Favorites",
+      "column": "user_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Favorites",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "timestamp",
+      "extra": "DEFAULT_GENERATED",
+      "table": "Favorites",
+      "column": "saved_at",
+      "length": null,
+      "default": "CURRENT_TIMESTAMP",
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "auto_increment",
+      "table": "FoodPermit",
+      "column": "permit_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "FoodPermit",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(100)",
+      "extra": "",
+      "table": "FoodPermit",
+      "column": "permit_number",
+      "length": 100,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(150)",
+      "extra": "",
+      "table": "FoodPermit",
+      "column": "issuing_authority",
+      "length": 150,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(100)",
+      "extra": "",
+      "table": "FoodPermit",
+      "column": "permit_type",
+      "length": 100,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "date",
+      "extra": "",
+      "table": "FoodPermit",
+      "column": "issued_date",
+      "length": null,
+      "default": null,
+      "nullable": "YES",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "date",
+      "extra": "",
+      "table": "FoodPermit",
+      "column": "expiration_date",
+      "length": null,
+      "default": null,
+      "nullable": "YES",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(500)",
+      "extra": "",
+      "table": "FoodPermit",
+      "column": "document_url",
+      "length": 500,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "auto_increment",
+      "table": "Location",
+      "column": "location_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(150)",
+      "extra": "",
+      "table": "Location",
+      "column": "location_name",
+      "length": 150,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(255)",
+      "extra": "",
+      "table": "Location",
+      "column": "street_address",
+      "length": 255,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(100)",
+      "extra": "",
+      "table": "Location",
+      "column": "city",
+      "length": 100,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(50)",
+      "extra": "",
+      "table": "Location",
+      "column": "state",
+      "length": 50,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(20)",
+      "extra": "",
+      "table": "Location",
+      "column": "postal_code",
+      "length": 20,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "decimal(9,6)",
+      "extra": "",
+      "table": "Location",
+      "column": "latitude",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "decimal(9,6)",
+      "extra": "",
+      "table": "Location",
+      "column": "longitude",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Manages",
+      "column": "user_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Manages",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(50)",
+      "extra": "",
+      "table": "Manages",
+      "column": "management_role",
+      "length": 50,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "timestamp",
+      "extra": "DEFAULT_GENERATED",
+      "table": "Manages",
+      "column": "granted_at",
+      "length": null,
+      "default": "CURRENT_TIMESTAMP",
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "auto_increment",
+      "table": "MenuItem",
+      "column": "menu_item_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "MenuItem",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(150)",
+      "extra": "",
+      "table": "MenuItem",
+      "column": "item_name",
+      "length": 150,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "text",
+      "extra": "",
+      "table": "MenuItem",
+      "column": "description",
+      "length": 65535,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "decimal(10,2)",
+      "extra": "",
+      "table": "MenuItem",
+      "column": "price",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(100)",
+      "extra": "",
+      "table": "MenuItem",
+      "column": "category",
+      "length": 100,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(30)",
+      "extra": "",
+      "table": "MenuItem",
+      "column": "availability_status",
+      "length": 30,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "MenuItemPhoto",
+      "column": "photo_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "MenuItemPhoto",
+      "column": "menu_item_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "OperatingHours",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "OperatingHours",
+      "column": "hours_number",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "enum('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday')",
+      "extra": "",
+      "table": "OperatingHours",
+      "column": "day_of_week",
+      "length": 9,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "time",
+      "extra": "",
+      "table": "OperatingHours",
+      "column": "opening_time",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "time",
+      "extra": "",
+      "table": "OperatingHours",
+      "column": "closing_time",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "auto_increment",
+      "table": "OperatingStop",
+      "column": "stop_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "OperatingStop",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "OperatingStop",
+      "column": "location_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "datetime",
+      "extra": "",
+      "table": "OperatingStop",
+      "column": "scheduled_start",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "datetime",
+      "extra": "",
+      "table": "OperatingStop",
+      "column": "scheduled_end",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "datetime",
+      "extra": "",
+      "table": "OperatingStop",
+      "column": "actual_start",
+      "length": null,
+      "default": null,
+      "nullable": "YES",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "datetime",
+      "extra": "",
+      "table": "OperatingStop",
+      "column": "actual_end",
+      "length": null,
+      "default": null,
+      "nullable": "YES",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(30)",
+      "extra": "",
+      "table": "OperatingStop",
+      "column": "stop_status",
+      "length": 30,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "text",
+      "extra": "",
+      "table": "OperatingStop",
+      "column": "notes",
+      "length": 65535,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "auto_increment",
+      "table": "Photo",
+      "column": "photo_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Photo",
+      "column": "uploader_user_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Photo",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(500)",
+      "extra": "",
+      "table": "Photo",
+      "column": "image_url",
+      "length": 500,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(255)",
+      "extra": "",
+      "table": "Photo",
+      "column": "caption",
+      "length": 255,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "timestamp",
+      "extra": "DEFAULT_GENERATED",
+      "table": "Photo",
+      "column": "uploaded_at",
+      "length": null,
+      "default": "CURRENT_TIMESTAMP",
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "auto_increment",
+      "table": "Review",
+      "column": "review_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Review",
+      "column": "author_user_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Review",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Review",
+      "column": "rating",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "text",
+      "extra": "",
+      "table": "Review",
+      "column": "review_text",
+      "length": 65535,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "timestamp",
+      "extra": "DEFAULT_GENERATED",
+      "table": "Review",
+      "column": "created_at",
+      "length": null,
+      "default": "CURRENT_TIMESTAMP",
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "timestamp",
+      "extra": "",
+      "table": "Review",
+      "column": "updated_at",
+      "length": null,
+      "default": null,
+      "nullable": "YES",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "ReviewPhoto",
+      "column": "photo_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "ReviewPhoto",
+      "column": "review_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "auto_increment",
+      "table": "User",
+      "column": "user_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(100)",
+      "extra": "",
+      "table": "User",
+      "column": "display_name",
+      "length": 100,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(255)",
+      "extra": "",
+      "table": "User",
+      "column": "email",
+      "length": 255,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(255)",
+      "extra": "",
+      "table": "User",
+      "column": "password_hash",
+      "length": 255,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "timestamp",
+      "extra": "DEFAULT_GENERATED",
+      "table": "User",
+      "column": "joined_at",
+      "length": null,
+      "default": "CURRENT_TIMESTAMP",
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "auto_increment",
+      "table": "Vendor",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(150)",
+      "extra": "",
+      "table": "Vendor",
+      "column": "name",
+      "length": 150,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "text",
+      "extra": "",
+      "table": "Vendor",
+      "column": "description",
+      "length": 65535,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(50)",
+      "extra": "",
+      "table": "Vendor",
+      "column": "vendor_type",
+      "length": 50,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(30)",
+      "extra": "",
+      "table": "Vendor",
+      "column": "phone_number",
+      "length": 30,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(500)",
+      "extra": "",
+      "table": "Vendor",
+      "column": "website_url",
+      "length": 500,
+      "default": null,
+      "nullable": "YES",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "varchar(30)",
+      "extra": "",
+      "table": "Vendor",
+      "column": "listing_status",
+      "length": 30,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "timestamp",
+      "extra": "DEFAULT_GENERATED",
+      "table": "Vendor",
+      "column": "created_at",
+      "length": null,
+      "default": "CURRENT_TIMESTAMP",
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "varchar(50)",
+      "extra": "",
+      "table": "Vendor",
+      "column": "timezone",
+      "length": 50,
+      "default": null,
+      "nullable": "NO",
+      "collation": "utf8mb4_0900_ai_ci"
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "Vendor",
+      "column": "submitted_by_user_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "VendorBase",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "VendorBase",
+      "column": "location_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "VendorCuisine",
+      "column": "vendor_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "column",
+      "type": "int",
+      "extra": "",
+      "table": "VendorCuisine",
+      "column": "cuisine_id",
+      "length": null,
+      "default": null,
+      "nullable": "NO",
+      "collation": null
+    },
+    {
+      "kind": "constraint",
+      "name": "cuisine_name",
+      "type": "UNIQUE",
+      "table": "Cuisine"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "Cuisine"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "Favorites"
+    },
+    {
+      "kind": "constraint",
+      "name": "Favorites_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "Favorites"
+    },
+    {
+      "kind": "constraint",
+      "name": "Favorites_ibfk_2",
+      "type": "FOREIGN KEY",
+      "table": "Favorites"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "FoodPermit"
+    },
+    {
+      "kind": "constraint",
+      "name": "uq_permit",
+      "type": "UNIQUE",
+      "table": "FoodPermit"
+    },
+    {
+      "kind": "constraint",
+      "name": "FoodPermit_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "FoodPermit"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "Location"
+    },
+    {
+      "kind": "constraint",
+      "name": "chk_latitude",
+      "type": "CHECK",
+      "table": "Location"
+    },
+    {
+      "kind": "constraint",
+      "name": "chk_longitude",
+      "type": "CHECK",
+      "table": "Location"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "Manages"
+    },
+    {
+      "kind": "constraint",
+      "name": "Manages_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "Manages"
+    },
+    {
+      "kind": "constraint",
+      "name": "Manages_ibfk_2",
+      "type": "FOREIGN KEY",
+      "table": "Manages"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "MenuItem"
+    },
+    {
+      "kind": "constraint",
+      "name": "MenuItem_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "MenuItem"
+    },
+    {
+      "kind": "constraint",
+      "name": "chk_price",
+      "type": "CHECK",
+      "table": "MenuItem"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "MenuItemPhoto"
+    },
+    {
+      "kind": "constraint",
+      "name": "MenuItemPhoto_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "MenuItemPhoto"
+    },
+    {
+      "kind": "constraint",
+      "name": "MenuItemPhoto_ibfk_2",
+      "type": "FOREIGN KEY",
+      "table": "MenuItemPhoto"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "OperatingHours"
+    },
+    {
+      "kind": "constraint",
+      "name": "OperatingHours_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "OperatingHours"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "OperatingStop"
+    },
+    {
+      "kind": "constraint",
+      "name": "OperatingStop_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "OperatingStop"
+    },
+    {
+      "kind": "constraint",
+      "name": "OperatingStop_ibfk_2",
+      "type": "FOREIGN KEY",
+      "table": "OperatingStop"
+    },
+    {
+      "kind": "constraint",
+      "name": "chk_actual_order",
+      "type": "CHECK",
+      "table": "OperatingStop"
+    },
+    {
+      "kind": "constraint",
+      "name": "chk_sched_order",
+      "type": "CHECK",
+      "table": "OperatingStop"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "Photo"
+    },
+    {
+      "kind": "constraint",
+      "name": "Photo_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "Photo"
+    },
+    {
+      "kind": "constraint",
+      "name": "Photo_ibfk_2",
+      "type": "FOREIGN KEY",
+      "table": "Photo"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "Review"
+    },
+    {
+      "kind": "constraint",
+      "name": "Review_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "Review"
+    },
+    {
+      "kind": "constraint",
+      "name": "Review_ibfk_2",
+      "type": "FOREIGN KEY",
+      "table": "Review"
+    },
+    {
+      "kind": "constraint",
+      "name": "chk_rating",
+      "type": "CHECK",
+      "table": "Review"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "ReviewPhoto"
+    },
+    {
+      "kind": "constraint",
+      "name": "ReviewPhoto_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "ReviewPhoto"
+    },
+    {
+      "kind": "constraint",
+      "name": "ReviewPhoto_ibfk_2",
+      "type": "FOREIGN KEY",
+      "table": "ReviewPhoto"
+    },
+    {
+      "kind": "constraint",
+      "name": "email",
+      "type": "UNIQUE",
+      "table": "User"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "User"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "Vendor"
+    },
+    {
+      "kind": "constraint",
+      "name": "Vendor_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "Vendor"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "VendorBase"
+    },
+    {
+      "kind": "constraint",
+      "name": "VendorBase_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "VendorBase"
+    },
+    {
+      "kind": "constraint",
+      "name": "VendorBase_ibfk_2",
+      "type": "FOREIGN KEY",
+      "table": "VendorBase"
+    },
+    {
+      "kind": "constraint",
+      "name": "PRIMARY",
+      "type": "PRIMARY KEY",
+      "table": "VendorCuisine"
+    },
+    {
+      "kind": "constraint",
+      "name": "VendorCuisine_ibfk_1",
+      "type": "FOREIGN KEY",
+      "table": "VendorCuisine"
+    },
+    {
+      "kind": "constraint",
+      "name": "VendorCuisine_ibfk_2",
+      "type": "FOREIGN KEY",
+      "table": "VendorCuisine"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "Favorites",
+      "column": "user_id",
+      "parent": "User",
+      "parent_column": "user_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "Favorites",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "FoodPermit",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "Manages",
+      "column": "user_id",
+      "parent": "User",
+      "parent_column": "user_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "Manages",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "MenuItem",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "MenuItemPhoto",
+      "column": "photo_id",
+      "parent": "Photo",
+      "parent_column": "photo_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "MenuItemPhoto",
+      "column": "menu_item_id",
+      "parent": "MenuItem",
+      "parent_column": "menu_item_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "OperatingHours",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "OperatingStop",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "OperatingStop",
+      "column": "location_id",
+      "parent": "Location",
+      "parent_column": "location_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "Photo",
+      "column": "uploader_user_id",
+      "parent": "User",
+      "parent_column": "user_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "Photo",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "Review",
+      "column": "author_user_id",
+      "parent": "User",
+      "parent_column": "user_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "Review",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "ReviewPhoto",
+      "column": "photo_id",
+      "parent": "Photo",
+      "parent_column": "photo_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "ReviewPhoto",
+      "column": "review_id",
+      "parent": "Review",
+      "parent_column": "review_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "Vendor",
+      "column": "submitted_by_user_id",
+      "parent": "User",
+      "parent_column": "user_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "VendorBase",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "VendorBase",
+      "column": "location_id",
+      "parent": "Location",
+      "parent_column": "location_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "VendorCuisine",
+      "column": "vendor_id",
+      "parent": "Vendor",
+      "parent_column": "vendor_id"
+    },
+    {
+      "kind": "foreign_key",
+      "table": "VendorCuisine",
+      "column": "cuisine_id",
+      "parent": "Cuisine",
+      "parent_column": "cuisine_id"
+    },
+    {
+      "kind": "check",
+      "clause": "(`latitude` between -(90) and 90)"
+    },
+    {
+      "kind": "check",
+      "clause": "(`longitude` between -(180) and 180)"
+    },
+    {
+      "kind": "check",
+      "clause": "(`scheduled_end` > `scheduled_start`)"
+    },
+    {
+      "kind": "check",
+      "clause": "((`actual_end` is null) or ((`actual_start` is not null) and (`actual_end` > `actual_start`)))"
+    },
+    {
+      "kind": "check",
+      "clause": "(`price` >= 0)"
+    },
+    {
+      "kind": "check",
+      "clause": "(`rating` between 1 and 5)"
+    },
+    {
+      "kind": "table",
+      "table": "Cuisine",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "Favorites",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "FoodPermit",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "Location",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "Manages",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "MenuItem",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "MenuItemPhoto",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "OperatingHours",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "OperatingStop",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "Photo",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "Review",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "ReviewPhoto",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "User",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "Vendor",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "VendorBase",
+      "engine": "InnoDB"
+    },
+    {
+      "kind": "table",
+      "table": "VendorCuisine",
+      "engine": "InnoDB"
+    }
+  ],
+  "row_counts": {
+    "Cuisine": 0,
+    "Favorites": 0,
+    "FoodPermit": 0,
+    "Location": 0,
+    "Manages": 0,
+    "MenuItem": 0,
+    "MenuItemPhoto": 0,
+    "OperatingHours": 0,
+    "OperatingStop": 0,
+    "Photo": 0,
+    "Review": 0,
+    "ReviewPhoto": 0,
+    "User": 0,
+    "Vendor": 0,
+    "VendorBase": 0,
+    "VendorCuisine": 0
+  }
+}

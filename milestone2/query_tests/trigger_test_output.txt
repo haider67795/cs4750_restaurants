@@ -1,0 +1,11 @@
+Valid same-vendor review link	1
+Valid same-vendor menu link	1
+
+EXPECTED REJECTIONS:
+ERROR 1644 (45000) at line 14: Photo and Review must belong to the same vendor
+ERROR 1644 (45000) at line 16: Cannot change photo vendor while attached records use another vendor
+ERROR 1644 (45000) at line 18: Cannot change Review vendor while attached photos use another vendor
+ERROR 1644 (45000) at line 21: Photo and Review must belong to the same vendor
+ERROR 1644 (45000) at line 25: Photo and MenuItem must belong to the same vendor
+ERROR 1644 (45000) at line 27: Cannot change MenuItem vendor while attached photos use another vendor
+ERROR 1644 (45000) at line 30: Photo and MenuItem must belong to the same vendor

@@ -1,0 +1,10 @@
+1	SIMPLE	r	NULL	ref	author_user_id,vendor_id	vendor_id	4	const	2	100.00	NULL
+1	SIMPLE	u	NULL	eq_ref	PRIMARY	PRIMARY	4	restaurants.r.author_user_id	1	100.00	NULL
+AddReview	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION	CREATE DEFINER=`root`@`%` PROCEDURE `AddReview`(
+    IN p_author_user_id INT,
+    IN p_vendor_id INT,
+    IN p_rating INT,
+    IN p_review_text TEXT
+)
+INSERT INTO Review (author_user_id, vendor_id, rating, review_text, created_at, updated_at)
+VALUES (p_author_user_id, p_vendor_id, p_rating, p_review_text, UTC_TIMESTAMP(), NULL)	cp850	cp850_general_ci	utf8mb4_0900_ai_ci

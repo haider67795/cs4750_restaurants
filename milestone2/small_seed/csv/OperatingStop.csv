@@ -1,0 +1,113 @@
+stop_id,vendor_id,location_id,scheduled_start,scheduled_end,actual_start,actual_end,stop_status,notes
+1,1,1,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+2,1,1,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+3,1,1,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+4,1,1,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+5,2,2,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+6,2,2,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+7,2,2,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+8,2,2,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+9,3,3,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+10,3,3,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+11,3,3,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+12,3,3,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+13,4,4,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+14,4,4,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+15,4,4,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+16,4,4,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+17,5,5,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+18,5,5,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+19,5,5,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+20,5,5,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+21,6,6,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+22,6,6,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+23,6,6,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+24,6,6,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+25,7,7,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+26,7,7,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+27,7,7,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+28,7,7,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+29,8,8,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+30,8,8,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+31,8,8,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+32,8,8,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+33,9,9,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+34,9,9,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+35,9,9,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+36,9,9,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+37,10,10,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+38,10,10,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+39,10,10,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+40,10,10,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+41,11,11,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+42,11,11,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+43,11,11,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+44,11,11,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+45,12,12,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+46,12,12,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+47,12,12,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+48,12,12,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+49,13,13,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+50,13,13,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+51,13,13,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+52,13,13,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+53,14,14,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+54,14,14,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+55,14,14,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+56,14,14,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+57,15,15,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+58,15,15,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+59,15,15,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+60,15,15,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+61,16,16,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+62,16,16,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+63,16,16,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+64,16,16,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+65,17,17,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+66,17,17,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+67,17,17,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+68,17,17,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+69,18,18,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+70,18,18,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+71,18,18,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+72,18,18,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+73,19,19,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+74,19,19,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+75,19,19,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+76,19,19,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+77,20,20,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+78,20,20,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+79,20,20,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+80,20,20,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+81,21,21,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+82,21,21,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+83,21,21,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+84,21,21,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+85,22,22,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+86,22,22,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+87,22,22,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+88,22,22,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+89,23,23,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+90,23,23,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+91,23,23,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+92,23,23,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+93,24,24,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+94,24,24,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+95,24,24,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+96,24,24,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+97,25,25,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+98,25,25,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+99,25,25,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+100,25,25,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+301,76,1,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+302,76,2,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+303,76,3,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+304,76,4,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+305,77,2,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+306,77,3,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+307,77,4,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+308,77,5,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+321,81,6,2026-10-21 15:00:00,2026-10-21 19:00:00,2026-10-21 15:05:00,2026-10-21 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+322,81,7,2026-10-22 15:00:00,2026-10-22 19:00:00,2026-10-22 15:05:00,2026-10-22 18:55:00,demo_completed,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+323,81,8,2026-10-23 15:00:00,2026-10-23 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+324,81,9,2026-10-24 15:00:00,2026-10-24 19:00:00,,,demo_scheduled,[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
