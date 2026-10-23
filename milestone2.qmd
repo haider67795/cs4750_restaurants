@@ -400,21 +400,21 @@ The full definitions are in Appendix C, with tests and results in Appendix D.
 
 ## Recorded Tests
 
-We tested inserts, updates, and deletes in a transaction, then rolled it back.
-All 16 table counts stayed the same. These runs used the earlier query version;
-the simplified retrieval queries were not included.
+All 42 final query groups ran without MySQL errors. Eighteen checks confirmed
+that the practice inserts, updates, and deletes produced the expected results.
+After ROLLBACK, row counts and stored data were unchanged across all 16 tables.
 
 We also tested valid and invalid photo links and an out-of-range review rating.
 The results are listed below.
 
 | Test | Recorded outcome |
 |---|---|
-| Earlier app-query catalogue | Completed without MySQL errors |
+| Final app queries (1-42) | Completed without MySQL errors |
 | Valid same-vendor review-photo attachment | Accepted, then rolled back |
 | Valid same-vendor menu-photo attachment | Accepted, then rolled back |
 | Seven cross-vendor attachment/vendor changes | Rejected with SQLSTATE 45000 |
-| Earlier app-query catalogue with triggers installed | Completed without MySQL errors |
-| Counts after all rolled-back tests | Unchanged for all 16 tables |
+| Practice write checks | All 18 passed with triggers installed |
+| Data after rollback | Counts and stored contents unchanged in all 16 tables |
 | Earlier rating-6 CHECK test | Rejected with error 3819 |
 
 Appendix D includes the trigger tests and their recorded output. The

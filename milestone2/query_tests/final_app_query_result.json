@@ -1,0 +1,141 @@
+{
+  "tested_at_utc": "2026-10-23T16:40:58.857681+00:00",
+  "source": "C:\\Users\\haide\\OneDrive\\Documents\\UVA\\CS4750\\cs4750_restaurants\\milestone2\\sql\\all_app_queries.sql",
+  "before": {
+    "Cuisine": {
+      "rows": 14,
+      "sha256": "e9bb8f786a76b143bec45f5235885daaf6acee269e3715374fdc0d473930eb3c"
+    },
+    "Favorites": {
+      "rows": 60,
+      "sha256": "35a7243e6c649622113b6040821948e16070d1979e1c3b988f663b4014079273"
+    },
+    "FoodPermit": {
+      "rows": 28,
+      "sha256": "b4b0d21db6cf7cb623d3a5f0ac64ac390582957694fa1392c965184822f4191b"
+    },
+    "Location": {
+      "rows": 25,
+      "sha256": "8cef218fa2a18b72fcfda45781176d62c9471ab290d28ee7cdbf2ae930d62b43"
+    },
+    "Manages": {
+      "rows": 30,
+      "sha256": "c99a52caab4de8460854f18851050a6ffefa144e48b728436dda3e1b93425c43"
+    },
+    "MenuItem": {
+      "rows": 84,
+      "sha256": "3c6045520e693a37f94948120f7ac431018cf235349743551f25c9ec5faafca4"
+    },
+    "MenuItemPhoto": {
+      "rows": 84,
+      "sha256": "3d80a3a971a393c281ac9624762457173d875ed8f837ece838464b0c05161499"
+    },
+    "OperatingHours": {
+      "rows": 185,
+      "sha256": "37f0ee185b10ac950f57638279baf2df07b0ca7d4e4a3c5cdd5c3c40ff601a15"
+    },
+    "OperatingStop": {
+      "rows": 112,
+      "sha256": "f2ca00161e0a02f7c47a660dea84ea8366c71f64cc48b5332107f43777916076"
+    },
+    "Photo": {
+      "rows": 241,
+      "sha256": "7c7a65f5dad8bdd8510f24ec6af00d451ff6b9d4c7cc2d3ed81a1bdf009a9d9e"
+    },
+    "Review": {
+      "rows": 161,
+      "sha256": "0de1dfa073d2965ccfe9dc40c3474d307a96112d1419c62a457b1e2fd47756a8"
+    },
+    "ReviewPhoto": {
+      "rows": 157,
+      "sha256": "de05b76958e665cfca0885381fd7db85032b05c1f2a92e950a48a3a6b12e4fd5"
+    },
+    "User": {
+      "rows": 146,
+      "sha256": "b4ec60a9a172ac901478ba6e6109c9eaaef4a36b15e2c0aee620dffd5471450b"
+    },
+    "Vendor": {
+      "rows": 28,
+      "sha256": "37085710d0d425a913e4abadae0ff3b870f66d9bf8961c137414479de53e8c7e"
+    },
+    "VendorBase": {
+      "rows": 25,
+      "sha256": "afc92cc37d8ba80b577f331a545c76aa3703c41307714922180b199518daff76"
+    },
+    "VendorCuisine": {
+      "rows": 35,
+      "sha256": "3bcf6c73dd5c1eaa8769a0fdf0b1a4906008ad560ad205c678b792f8605211b7"
+    }
+  },
+  "source_sha256": "18e50b6e78ffadde38ad81fa967e4828d670639922e7223358286ce202ba2bce",
+  "after": {
+    "Cuisine": {
+      "rows": 14,
+      "sha256": "e9bb8f786a76b143bec45f5235885daaf6acee269e3715374fdc0d473930eb3c"
+    },
+    "Favorites": {
+      "rows": 60,
+      "sha256": "35a7243e6c649622113b6040821948e16070d1979e1c3b988f663b4014079273"
+    },
+    "FoodPermit": {
+      "rows": 28,
+      "sha256": "b4b0d21db6cf7cb623d3a5f0ac64ac390582957694fa1392c965184822f4191b"
+    },
+    "Location": {
+      "rows": 25,
+      "sha256": "8cef218fa2a18b72fcfda45781176d62c9471ab290d28ee7cdbf2ae930d62b43"
+    },
+    "Manages": {
+      "rows": 30,
+      "sha256": "c99a52caab4de8460854f18851050a6ffefa144e48b728436dda3e1b93425c43"
+    },
+    "MenuItem": {
+      "rows": 84,
+      "sha256": "3c6045520e693a37f94948120f7ac431018cf235349743551f25c9ec5faafca4"
+    },
+    "MenuItemPhoto": {
+      "rows": 84,
+      "sha256": "3d80a3a971a393c281ac9624762457173d875ed8f837ece838464b0c05161499"
+    },
+    "OperatingHours": {
+      "rows": 185,
+      "sha256": "37f0ee185b10ac950f57638279baf2df07b0ca7d4e4a3c5cdd5c3c40ff601a15"
+    },
+    "OperatingStop": {
+      "rows": 112,
+      "sha256": "f2ca00161e0a02f7c47a660dea84ea8366c71f64cc48b5332107f43777916076"
+    },
+    "Photo": {
+      "rows": 241,
+      "sha256": "7c7a65f5dad8bdd8510f24ec6af00d451ff6b9d4c7cc2d3ed81a1bdf009a9d9e"
+    },
+    "Review": {
+      "rows": 161,
+      "sha256": "0de1dfa073d2965ccfe9dc40c3474d307a96112d1419c62a457b1e2fd47756a8"
+    },
+    "ReviewPhoto": {
+      "rows": 157,
+      "sha256": "de05b76958e665cfca0885381fd7db85032b05c1f2a92e950a48a3a6b12e4fd5"
+    },
+    "User": {
+      "rows": 146,
+      "sha256": "b4ec60a9a172ac901478ba6e6109c9eaaef4a36b15e2c0aee620dffd5471450b"
+    },
+    "Vendor": {
+      "rows": 28,
+      "sha256": "37085710d0d425a913e4abadae0ff3b870f66d9bf8961c137414479de53e8c7e"
+    },
+    "VendorBase": {
+      "rows": 25,
+      "sha256": "afc92cc37d8ba80b577f331a545c76aa3703c41307714922180b199518daff76"
+    },
+    "VendorCuisine": {
+      "rows": 35,
+      "sha256": "3bcf6c73dd5c1eaa8769a0fdf0b1a4906008ad560ad205c678b792f8605211b7"
+    }
+  },
+  "success": true,
+  "query_groups_passed": 42,
+  "write_assertions_passed": 18,
+  "stored_data_unchanged": true
+}

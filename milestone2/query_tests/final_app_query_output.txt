@@ -1,0 +1,193 @@
+CS4750_QUERY	1
+76	[DEMO] Virginia Mobile Kitchen 1	food_truck
+77	[DEMO] Virginia Mobile Kitchen 2	food_truck
+81	[DEMO] Virginia Mobile Kitchen 6	pop_up
+1	Adela's Deli	restaurant
+17	B.GOOD	restaurant
+8	Best Thai Kitchen	restaurant
+12	BJ's Wholesale Club	restaurant
+11	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	restaurant
+24	County Grill & Smokehouse	restaurant
+13	Dok Khao Thai Eatery	restaurant
+15	EastWind Vietnamese Restaurant and Noodle House	restaurant
+19	Freddy's Frozen Custard & Steakburgers	restaurant
+5	Gaucho Brazilian Grille	restaurant
+25	GloryBe Cakes	restaurant
+20	Golden City Restaurant	restaurant
+9	Heidelberg Pastry Shoppe	restaurant
+4	Kupkakery Bakery, Inc.	restaurant
+14	Lake Anne Coffee House & Wine Bar	restaurant
+10	Little Star Restaurant	restaurant
+6	Logan's Roadhouse	restaurant
+2	Maggios	restaurant
+18	McDonald's	restaurant
+3	Mister Whippy 1991	restaurant
+7	Nawab Indian Cuisine	restaurant
+21	Papa John's Pizza	restaurant
+23	Ruby Tuesday	restaurant
+22	Southside Dining Hall	restaurant
+16	Tommy's Restaurant	restaurant
+CS4750_QUERY	2
+2	Maggios
+21	Papa John's Pizza
+CS4750_QUERY	3
+2	Maggios
+CS4750_QUERY	4
+2	Maggios
+CS4750_QUERY	5
+76	[DEMO] Virginia Mobile Kitchen 1
+77	[DEMO] Virginia Mobile Kitchen 2
+CS4750_QUERY	6
+4	Kupkakery Bakery, Inc.	4.86	7
+7	Nawab Indian Cuisine	4.86	7
+10	Little Star Restaurant	4.86	7
+19	Freddy's Frozen Custard & Steakburgers	4.86	7
+13	Dok Khao Thai Eatery	4.71	7
+3	Mister Whippy 1991	4.57	7
+5	Gaucho Brazilian Grille	4.57	7
+8	Best Thai Kitchen	4.57	7
+9	Heidelberg Pastry Shoppe	4.57	7
+1	Adela's Deli	4.50	2
+25	GloryBe Cakes	4.50	2
+76	[DEMO] Virginia Mobile Kitchen 1	4.50	2
+14	Lake Anne Coffee House & Wine Bar	4.43	7
+16	Tommy's Restaurant	4.43	7
+22	Southside Dining Hall	4.29	7
+15	EastWind Vietnamese Restaurant and Noodle House	4.14	7
+17	B.GOOD	4.14	7
+24	County Grill & Smokehouse	4.14	7
+2	Maggios	4.00	7
+11	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	4.00	2
+23	Ruby Tuesday	4.00	2
+77	[DEMO] Virginia Mobile Kitchen 2	4.00	2
+6	Logan's Roadhouse	3.71	7
+81	[DEMO] Virginia Mobile Kitchen 6	3.50	2
+18	McDonald's	3.29	7
+12	BJ's Wholesale Club	3.14	7
+20	Golden City Restaurant	3.14	7
+21	Papa John's Pizza	3.14	7
+CS4750_QUERY	7
+10	Little Star Restaurant	Little Star Restaurant	0.9643699592115574
+23	Ruby Tuesday	Ruby Tuesday	3.2669746175069854
+17	B.GOOD	B.GOOD	3.4751363162226605
+21	Papa John's Pizza	Papa John's Pizza	113.55797010813131
+6	Logan's Roadhouse	Logan's Roadhouse	120.32507285305833
+25	GloryBe Cakes	GloryBe Cakes	122.33425877143011
+8	Best Thai Kitchen	Best Thai Kitchen	122.78271918738973
+81	[DEMO] Virginia Mobile Kitchen 6	Best Thai Kitchen	122.78271918738973
+13	Dok Khao Thai Eatery	Dok Khao Thai Eatery	123.22249664220561
+11	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	134.70308603895893
+22	Southside Dining Hall	Southside Dining Hall	135.49285271371292
+15	EastWind Vietnamese Restaurant and Noodle House	EastWind Vietnamese Restaurant and Noodle House	136.55652554425978
+19	Freddy's Frozen Custard & Steakburgers	Freddy's Frozen Custard & Steakburgers	138.76329912996778
+18	McDonald's	McDonald's	141.75232077126628
+14	Lake Anne Coffee House & Wine Bar	Lake Anne Coffee House & Wine Bar	143.78909581767522
+2	Maggios	Maggios	149.18002354476104
+9	Heidelberg Pastry Shoppe	Heidelberg Pastry Shoppe	151.9466816073299
+7	Nawab Indian Cuisine	Nawab Indian Cuisine	153.78491653657912
+4	Kupkakery Bakery, Inc.	Kupkakery Bakery, Inc.	169.3664014809948
+77	[DEMO] Virginia Mobile Kitchen 2	Kupkakery Bakery, Inc.	169.3664014809948
+1	Adela's Deli	Adela's Deli	188.0054627367002
+5	Gaucho Brazilian Grille	Gaucho Brazilian Grille	193.57611670748832
+24	County Grill & Smokehouse	County Grill & Smokehouse	205.54354406431426
+16	Tommy's Restaurant	Tommy's Restaurant	212.45354224718807
+12	BJ's Wholesale Club	BJ's Wholesale Club	214.21184741396638
+20	Golden City Restaurant	Golden City Restaurant	219.6506068167707
+3	Mister Whippy 1991	Mister Whippy 1991	272.5945345820673
+76	[DEMO] Virginia Mobile Kitchen 1	Mister Whippy 1991	272.5945345820673
+CS4750_QUERY	8
+1	Adela's Deli	[DEMO PLACEHOLDER] Profile description not supplied by source.	restaurant	+1-202-555-0101	https://vendor-001.example.invalid	imported	2026-10-23 03:43:11	America/New_York	1	8934 Pocahontas Trail	Williamsburg	VA	23185
+CS4750_QUERY	9
+Unspecified
+CS4750_QUERY	10
+3	[DEMO] Chocolate Raspberry Brownies	[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.	10.37	Demo dessert	demo_available
+1	[DEMO] kofta burgers	[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.	15.88	Demo burger	demo_available
+2	[DEMO] Pancakes	[DEMO] Fictional menu item and price. Illustrative recipe photo; not an actual offering from this vendor.	21.42	Demo breakfast	demo_available
+CS4750_QUERY	11
+[DEMO] kofta burgers	https://www.themealdb.com/images/media/meals/lgmnff1763789847.jpg	[DEMO] Illustrative kofta burgers photo (TheMealDB); not this vendor's dish.
+[DEMO] Pancakes	https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg	[DEMO] Illustrative Pancakes photo (TheMealDB); not this vendor's dish.
+[DEMO] Chocolate Raspberry Brownies	https://www.themealdb.com/images/media/meals/yypvst1511386427.jpg	[DEMO] Illustrative Chocolate Raspberry Brownies photo (TheMealDB); not this vendor's dish.
+CS4750_QUERY	12
+Monday	11:00:00	20:00:00
+Tuesday	11:00:00	20:00:00
+Wednesday	11:00:00	20:00:00
+Thursday	11:00:00	20:00:00
+Friday	11:00:00	20:00:00
+Saturday	11:00:00	20:00:00
+Sunday	11:00:00	20:00:00
+CS4750_QUERY	13
+1	1	1	2026-10-21 15:00:00	2026-10-21 19:00:00	2026-10-21 15:05:00	2026-10-21 18:55:00	demo_completed	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.	Adela's Deli	Williamsburg	37.207971	-76.610804
+2	1	1	2026-10-22 15:00:00	2026-10-22 19:00:00	2026-10-22 15:05:00	2026-10-22 18:55:00	demo_completed	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.	Adela's Deli	Williamsburg	37.207971	-76.610804
+3	1	1	2026-10-23 15:00:00	2026-10-23 19:00:00	NULL	NULL	demo_scheduled	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.	Adela's Deli	Williamsburg	37.207971	-76.610804
+4	1	1	2026-10-24 15:00:00	2026-10-24 19:00:00	NULL	NULL	demo_scheduled	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.	Adela's Deli	Williamsburg	37.207971	-76.610804
+CS4750_QUERY	14
+15057	Demo Customer 002	4	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11
+15058	Demo Customer 003	5	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11
+CS4750_QUERY	15
+15057	https://www.themealdb.com/images/media/meals/lgmnff1763789847.jpg	[DEMO] Generic illustrative food photo; not taken by a real customer.
+CS4750_QUERY	16
+1	1	DEMO-NOT-VALID-0001	DEMO AUTHORITY - NOT A REAL PERMIT	demo_food_service	2026-10-23	2027-10-23	NULL
+CS4750_QUERY	17
+7	Nawab Indian Cuisine	2026-10-23 03:43:11
+13	Dok Khao Thai Eatery	2026-10-23 03:43:11
+24	County Grill & Smokehouse	2026-10-23 03:43:11
+76	[DEMO] Virginia Mobile Kitchen 1	2026-10-23 03:43:11
+81	[DEMO] Virginia Mobile Kitchen 6	2026-10-23 03:43:11
+CS4750_QUERY	18
+13947	Demo Customer 001	demo.customer.001@example.invalid	2026-10-23 03:43:11
+CS4750_QUERY	19
+15078	Breakers Korean Bar-B-Q Fair Oaks Mall Opening soon!	3	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.
+15079	BJ's Wholesale Club	3	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.
+15102	Ruby Tuesday	3	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.
+15103	County Grill & Smokehouse	3	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.
+CS4750_QUERY	20
+1	Adela's Deli	demo_owner
+CS4750_QUERY	21
+13947	Demo Customer 001	$2y$10$7dvUqCBkly5UYpE7FXfasOytR14L.xF9AADrR5dnDn7V3lhYU2pRq
+CS4750_QUERY	22
+15057	4	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11
+15058	5	[DEMO REVIEW] Fictional feedback for testing the application. This is not a real customer experience.	2026-10-23 03:43:11
+CS4750_QUERY	23
+1	Adela's Deli	[DEMO PLACEHOLDER] Profile description not supplied by source.	restaurant	+1-202-555-0101	https://vendor-001.example.invalid	imported	2026-10-23 03:43:11	America/New_York	1
+CS4750_QUERY	24
+1	1	1	2026-10-21 15:00:00	2026-10-21 19:00:00	2026-10-21 15:05:00	2026-10-21 18:55:00	demo_completed	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+2	1	1	2026-10-22 15:00:00	2026-10-22 19:00:00	2026-10-22 15:05:00	2026-10-22 18:55:00	demo_completed	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+3	1	1	2026-10-23 15:00:00	2026-10-23 19:00:00	NULL	NULL	demo_scheduled	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+4	1	1	2026-10-24 15:00:00	2026-10-24 19:00:00	NULL	NULL	demo_scheduled	[DEMO] Fictional dated service visit at a source location; not actual attendance or an announced event.
+CS4750_QUERY	25
+CS4750_ASSERT	25	1
+CS4750_QUERY	26
+CS4750_ASSERT	26	1
+CS4750_QUERY	27
+CS4750_ASSERT	27	1
+CS4750_QUERY	28
+CS4750_ASSERT	28	1
+CS4750_QUERY	29
+CS4750_ASSERT	29	1
+CS4750_QUERY	30
+CS4750_ASSERT	30	1
+CS4750_QUERY	31
+CS4750_ASSERT	31	1
+CS4750_QUERY	32
+CS4750_ASSERT	32	1
+CS4750_QUERY	33
+CS4750_ASSERT	33	1
+CS4750_QUERY	34
+CS4750_ASSERT	34	1
+CS4750_QUERY	35
+CS4750_ASSERT	35	1
+CS4750_QUERY	36
+CS4750_ASSERT	36	1
+CS4750_QUERY	37
+CS4750_ASSERT	37	1
+CS4750_QUERY	38
+CS4750_ASSERT	38	1
+CS4750_QUERY	39
+CS4750_ASSERT	39	1
+CS4750_QUERY	40
+CS4750_ASSERT	40	1
+CS4750_QUERY	41
+CS4750_ASSERT	41	1
+CS4750_QUERY	42
+CS4750_ASSERT	42	1
+CS4750_FINISHED	42
